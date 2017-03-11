@@ -12532,5 +12532,18 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     },
     "w": 610.0,
     "ab": "Power Construct"
-  }
+  },
+  "Yddraig": {
+    "t1": "Dragon",
+    "bs": {
+      "hp": 60,
+      "at": 60,
+      "df": 55,
+      "sa": 75,
+      "sd": 55,
+      "sp": 85
+    },
+    "w": 23.0,
+  },
+  
 });
