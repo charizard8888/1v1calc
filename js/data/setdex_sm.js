@@ -26,6 +26,15 @@ var SETDEX_SM = {
 		"Battle Spot Singles Swords Dance": {"level":50,"evs":{"sd":4,"at":252,"hp":252},"nature":"Brave","ability":"Stance Change","item":"Weakness Policy","moves":["Swords Dance","Shadow Sneak","Iron Head","Sacred Sword"]},
 	},
 	"Charizard-Mega-X": {
-		"Offensive": {"level":100,"evs":{"sd":4,"at":252,"sp":252},"nature":"Joly","ability":"Tough Claws","item":"Charizardite X","moves":["Outrage","Flare Blitz","Earthquake",]},
+		"Offensive": {"level":100,"evs":{"sd":4,"at":252,"sp":252},"nature":"Jolly","ability":"Tough Claws","item":"Charizardite X","moves":["Dragon Dance","Outrage","Flare Blitz","Earthquake"]},
+		"Defensive": {"level":100,"evs":{"sp":8,"hp":248,"def":252},"nature":"Bold","ability":"Tough Claws","item":"Charizardite X","moves":["Outrage","Flare Blitz","Will-O-Wisp","Counter"]},
+	},
+	"Charizard-Mega-Y": {
+		"Offensive": {"level":100,"evs":{"sd":4,"spa":252,"sp":252},"nature":"Timid","ability":"Drought","item":"Charizardite Y","moves":["Air Slash","Blast Burn","Solar Beam","Dragon Pulse"]},
+		"Def": {"level":100,"evs":{"sp":8,"sp":252,"def":252},"nature":"Modest","ability":"Drought","item":"Charizardite Y","moves":["Air Slash","Blast Burn","Solar Beam","Dragon Pulse"]},
+	},
+	"Kyurem-Black": {
+		"Offensive": {"level":100,"evs":{"sd":4,"at":252,"sp":252},"nature":"Naive","ability":"Teravolt","item":"Choice Scarf","moves":["Outrage", "Fusion Bolt", "Iron Head", "Ice Beam"]},
+		"Defensive": {"level":100,"evs":{"sp":8,"hp":248,"def":252},"nature":"Bold","ability":"Teravolt","item":"Icium Z","moves":["Outrage", "Fusion Bolt", "Iron Head", "Freeze Shock"]},
 	},
 };
