@@ -10,12 +10,6 @@ var SETDEX_SM = {
 		"ORAS UU Swords Dance": {"level":100,"evs":{"sd":4,"at":252,"sp":252},"nature":"Jolly","ability":"Justified","item":"Absolite","moves":["Swords Dance","Knock Off","Sucker Punch","Superpower"]},
 		"ORAS UU All-out Attacker": {"level":100,"evs":{"sd":4,"at":252,"sp":252},"nature":"Jolly","ability":"Justified","item":"Absolite","moves":["Knock Off","Sucker Punch","Pursuit","Superpower"]},
 	},
-	"Aegislash-Blade": {
-		
-	},
-	"Aegislash-Shield": {
-		
-	},
 	"Charizard-Mega-X": {
 		"Offensive": {"level":100,"evs":{"sd":4,"at":252,"sp":252},"nature":"Jolly","ability":"Tough Claws","item":"Charizardite X","moves":["Dragon Dance","Outrage","Flare Blitz","Earthquake"]},
 		"Defensive": {"level":100,"evs":{"sp":8,"hp":248,"def":252},"nature":"Bold","ability":"Tough Claws","item":"Charizardite X","moves":["Outrage","Flare Blitz","Will-O-Wisp","Counter"]},
