@@ -16,6 +16,7 @@ var SETDEX_SM = {
 	},
 	"Charizard-Mega-Y": {
 		"OU Offensive": {"level":100,"evs":{"sd":4,"sa":252,"sp":252},"nature":"Timid","ability":"Drought","item":"Charizardite Y","moves":["Air Slash","Blast Burn","Solar Beam","Dragon Pulse"]},
+		"1v1 Offensive": {"level":100,"evs":{"sd":4,"sa":252,"sp":252},"nature":"Timid","ability":"Drought","item":"Charizardite Y","moves":["Air Slash","Blast Burn","Solar Beam","Dragon Pulse"]},
 		"OU Def": {"level":100,"evs":{"sp":8,"sp":252,"def":252},"nature":"Modest","ability":"Drought","item":"Charizardite Y","moves":["Air Slash","Blast Burn","Solar Beam","Dragon Pulse"]},
 	},
 	"Kyurem-Black": {
