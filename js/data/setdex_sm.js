@@ -20,7 +20,7 @@ var SETDEX_SM = {
 	"Gyarados": {
 		"1v1 Pre-Mega Standard": {"level":100,"evs":{"hp":88,"at":252,"sp":88,"def":80},"nature":"Adamant","ability":"Mold Breaker","item":"Gyaradosite","moves":["Waterfall","Crunch","Outrage","Earthquake"]},
 		"1v1 Pre-Mega Bulky": {"level":100,"evs":{"hp":104,"at":196,"sd":8,"sp":100,"def":100},"nature":"Adamant","ability":"Mold Breaker","item":"Gyaradosite","moves":["Waterfall","Crunch","Outrage","Earthquake"]},
-	}.
+	},
 	"Gyarados-Mega": {
 		"1v1 Standard": {"level":100,"evs":{"hp":88,"at":252,"sp":88,"def":80},"nature":"Adamant","ability":"Mold Breaker","item":"Gyaradosite","moves":["Waterfall","Crunch","Outrage","Earthquake"]},
 		"1v1 Bulky": {"level":100,"evs":{"hp":104,"at":196,"sd":8,"sp":100,"def":100},"nature":"Adamant","ability":"Mold Breaker","item":"Gyaradosite","moves":["Waterfall","Crunch","Outrage","Earthquake"]},
