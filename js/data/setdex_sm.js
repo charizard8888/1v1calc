@@ -17,7 +17,7 @@ var SETDEX_SM = {
 	"Charizard-Mega-Y": {
 		"OU Offensive": {"level":100,"evs":{"sd":4,"sa":252,"sp":252},"nature":"Timid","ability":"Drought","item":"Charizardite Y","moves":["Air Slash","Blast Burn","Solar Beam","Dragon Pulse"]},
 		"&#49;v&#49; Offensivemon": {"level":100,"evs":{"sd":4,"sa":252,"sp":252},"nature":"Timid","ability":"Drought","item":"Charizardite Y","moves":["Air Slash","Blast Burn","Solar Beam","Ancient Power"]},
-		"OU Def": {"level":100,"evs":{"sp":8,"sp":252,"def":252},"nature":"Modest","ability":"Drought","item":"Charizardite Y","moves":["Air Slash","Blast Burn","Solar Beam","Dragon Pulse"]},
+		"1v1 Def": {"level":100,"evs":{"sp":8,"sp":252,"def":252},"nature":"Modest","ability":"Drought","item":"Charizardite Y","moves":["Air Slash","Blast Burn","Solar Beam","Dragon Pulse"]},
 	},
 	"Kyurem-Black": {
 		"OU Choice Scarf": {"level":100,"evs":{"sd":4,"at":252,"sp":252},"nature":"Naive","ability":"Teravolt","item":"Choice Scarf","moves":["Outrage", "Fusion Bolt", "Iron Head", "Ice Beam"]},
