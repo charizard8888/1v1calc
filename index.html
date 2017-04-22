@@ -7,6 +7,78 @@
     <link type="text/css" rel="stylesheet" href="./select2/select2.css" />
     <link type="text/css" rel="stylesheet" href="./ap_calc.css?v2" />
     <link type="text/css" rel="stylesheet" href="./bootstrap.css" />
+    <script>
+        function copyFull() {
+  //copys inner html of target div. 
+
+  //event button
+  var copyBtn = $('.copy-btn');
+  copyBtn.on('click', function(event) {
+
+    var $this = $(this);
+
+    //find the element that has the text you want.
+    var content = $this.prev('.mainResult');
+    //creates new range object and sets text as boundaries.
+    var range = document.createRange();
+    range.selectNode(content[0]);
+    window.getSelection().addRange(range);
+
+    try {
+      // Now that we've selected the text, execute the copy command  
+      var successful = document.execCommand('copy');
+      /*var msg = successful ? 'successful' : 'unsuccessful';
+      console.log('Copy email command was ' + msg);*/
+
+      //handle success
+      $(this).after('<span class="success"></span>');
+      setTimeout(function() {
+        $('.success').addClass('show');
+        setTimeout(function() {
+          $('.success').fadeOut(function() {
+            $('.success').remove();
+          });
+        }, 1000);
+      }, 0);
+    } catch (err) {
+      //console.log('Oops, unable to copy');
+    }
+    //clear out range for next event.
+    window.getSelection().removeAllRanges();
+
+  });
+}
+
+function copyPhone() {
+  // same principle. Set a copyBtn, and a target element. In this case they are the same.
+  var copyBtn = $('.phone');
+  copyBtn.on('click', function(event) {
+    var content = $(this);
+    var range = document.createRange();
+    range.selectNode(content[0]);
+    window.getSelection().addRange(range);
+
+    try {
+      var successful = document.execCommand('copy');
+      $(this).addClass('p-success');
+      setTimeout(function() {
+        $('.phone').removeClass('p-success');
+      }, 1000);
+    } catch (err) {
+      // console.log('Oops, unable to copy');  
+    }
+
+    window.getSelection().removeAllRanges();
+
+  });
+}
+
+$(function() {
+  copyFull();
+  copyPhone();
+
+});
+    </script>
 </head>
 
 <body>
@@ -29,7 +101,7 @@
     <div>
         <span class="title-text">1v1 Damage Calculator</span>
         <span title="Select the generation.">
-            <input class="gen btn-input" type="radio" name="gen" value="7" id="gen7" checked="checked" /><label class="btn btn-wide btn-right" for="gen7">Sun & Moon</label>
+            <input class="gen btn-input" type="radio" name="gen" value="7" id="gen7" checked="checked" /><label class="btn btn-wide btn-left" for="gen7">Sun & Moon</label>
         </span>
         <span title="Select the output notation.">
             <input class="notation btn-input" type="radio" name="notation" id="percentage" value="%" /><label class="btn btn-small btn-right" for="percentage">100%</label>
@@ -92,7 +164,7 @@
         </div>
     </div>
     <div class="main-result-group">
-        <div class="big-text"><span id="mainResult">Loading...</span>
+        <div class="big-text"><span id="mainResult">Loading...</span><button class="copy-btn"></button>
         </div>
         <div class="small-text"><span id="damageValues">(If you see this message for more than a few seconds, try enabling JavaScript.)</span>
         </div>
