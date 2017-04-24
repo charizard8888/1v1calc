@@ -45,6 +45,10 @@ var SETDEX_SM = {
 	"Crustle": {
 		"1v1 Shell Smash Rockium Z": {"level":100,"evs":{"df":40,"at":244,"hp":112,"sp":112},"nature":"Adamant","ability":"Sturdy","item":"Rockium Z","moves":["Rock Wrecker","Shell Smash","Earthquake","X-Scissor"]},
 	},
+	"Tapu Koko": {
+		"1v1 Physical Electrium Z": {"level":100,"evs":{"sd":4,"at":252,"sp":252},"nature":"Jolly","ability":"Electric Surge","item":"Electrium Z","moves":["Wild Charge","Taunt","Substitute","Charge"]},
+		"1v1 Special Electrium Z": {"level":100,"evs":{"sd":4,"at":252,"sp":252},"nature":"Jolly","ability":"Electric Surge","item":"Electrium Z","moves":["Wild Charge","Taunt","Substitute","Charge"]},
+	},
 	"Porygon-Z": {
 		"1v1 Standard Scarf": {"level":100,"evs":{"sd":4,"sa":252,"sp":252},"nature":"Timid","ability":"Adaptibility","item":"Choice Scarf","moves":["Hyper Beam", "Uproar", "Shadow Ball", "Ice Beam"]},
 		"1v1 Bulky Scarf": {"level":100,"evs":{"df":240,"sa":172,"sp":96},"nature":"Timid","ability":"Adaptibility","item":"Choice Scarf","moves":["Hyper Beam", "Uproar", "Shadow Ball", "Ice Beam"]},
