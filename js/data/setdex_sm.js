@@ -47,7 +47,8 @@ var SETDEX_SM = {
 	},
 	"Tapu Koko": {
 		"1v1 Physical Electrium Z": {"level":100,"evs":{"sd":4,"at":252,"sp":252},"nature":"Jolly","ability":"Electric Surge","item":"Electrium Z","moves":["Wild Charge","Taunt","Substitute","Charge"]},
-		"1v1 Special Electrium Z": {"level":100,"evs":{"sd":4,"at":252,"sp":252},"nature":"Jolly","ability":"Electric Surge","item":"Electrium Z","moves":["Wild Charge","Taunt","Substitute","Charge"]},
+		"1v1 Special Electrium Z": {"level":100,"evs":{"df":4,"at":252,"sp":252},"nature":"Timid","ability":"Electric Surge","item":"Electrium Z","moves":["Thunder","Taunt","Substitute","Charge"]},
+		"1v1 Flyingium Z": {"level":100,"evs":{"df":4,"at":252,"sp":252},"nature":"Timid","ability":"Electric Surge","item":"Flyingium Z","moves":["Substitute","Mirror Move","Brave Bird","Wild Charge"]},
 	},
 	"Porygon-Z": {
 		"1v1 Standard Scarf": {"level":100,"evs":{"sd":4,"sa":252,"sp":252},"nature":"Timid","ability":"Adaptibility","item":"Choice Scarf","moves":["Hyper Beam", "Uproar", "Shadow Ball", "Ice Beam"]},
