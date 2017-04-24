@@ -68,6 +68,11 @@ var SETDEX_SM = {
 		"1v1 Choice Band": {"level":100,"evs":{"at":252,"hp":252,"sp":4},"nature":"Adamant","ability":"Multiscale","item":"Choice Band","moves":["Outrage","Extreme Speed","Earthquake","Fire Punch"]},
 		"1v1 Weakness Policy": {"level":100,"evs":{"at":252,"sp":252,"sd":4},"nature":"Adamant","ability":"Multiscale","item":"Choice Band","moves":["Outrage","Extreme Speed","Earthquake","Fire Punch"]},
 	},
+	"Greninja": {
+		"1v1 Choice Specs": {"level":100,"evs":{"sa":252,"sp":252,"sd":4},"nature":"Timid","ability":"Protean","item":"Choice Specs","moves":["Hydro Cannon","Grass Knot","Dark Pulse","Ice Beam"]},
+		"1v1 Waterium Z": {"level":100,"evs":{"sa":252,"sp":252,"sd":4},"nature":"Timid","ability":"Protean","item":"Waterium Z","moves":["Hydro Cannon","Grass Knot","Dark Pulse","Water Shuriken"]},
+		"1v1 Mixed Life Orb": {"level":100,"evs":{"sa":252,"sp":252,"at":4},"nature":"Hasty","ability":"Protean","item":"Life Orb","moves":["Hydro Pump","Shadow Sneak","Gunk Shot","Dark Pulse"]},
+	},
 	"Porygon-Z": {
 		"1v1 Standard Scarf": {"level":100,"evs":{"sd":4,"sa":252,"sp":252},"nature":"Timid","ability":"Adaptibility","item":"Choice Scarf","moves":["Hyper Beam", "Uproar", "Shadow Ball", "Ice Beam"]},
 		"1v1 Bulky Scarf": {"level":100,"evs":{"df":240,"sa":172,"sp":96},"nature":"Timid","ability":"Adaptibility","item":"Choice Scarf","moves":["Hyper Beam", "Uproar", "Shadow Ball", "Ice Beam"]},
