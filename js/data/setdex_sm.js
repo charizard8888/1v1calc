@@ -50,6 +50,24 @@ var SETDEX_SM = {
 		"1v1 Special Electrium Z": {"level":100,"evs":{"df":4,"sa":252,"sp":252},"nature":"Timid","ability":"Electric Surge","item":"Electrium Z","moves":["Thunder","Taunt","Substitute","Charge"]},
 		"1v1 Flyingium Z": {"level":100,"evs":{"df":4,"at":252,"sp":252},"nature":"Timid","ability":"Electric Surge","item":"Flyingium Z","moves":["Substitute","Mirror Move","Brave Bird","Wild Charge"]},
 	},
+	"Tapu Lele": {
+		"1v1 Psychium Z": {"level":100,"evs":{"hp":200,"sa":252,"df":56},"nature":"Modest","ability":"Psychic Surge","item":"Psychium Z","moves":["Psychic","Reflect","Moonblast","Calm Mind"]},
+		"1v1 Choice Scarf": {"level":100,"evs":{"sp":252,"sa":252,"sd":56},"nature":"Timid","ability":"Psychic Surge","item":"Choice Scarf","moves":["Psychic","Thunderbolt","Moonblast","Shadow Ball"]},
+	},
+	"Deoxys-Defense": {
+		"1v1 Under Pressure": {"level":100,"evs":{"hp":248,"spe":252,"df": 8},"nature":"Timid","ability":"Pressure","item":"Sitrus Berry","moves":["Taunt","Iron Defense","Amnesia","Recover"]},
+		"1v1 Z-Cosmic Power": {"level":100,"evs":{"hp":248,"df":252,"sd": 8},"nature":"Bold","ability":"Pressure","item":"Psychium Z","moves":["Cosmic Power","Mud Slap","Tant","Recover"]},
+		"1v1 CounterCoat": {"level":100,"evs":{"hp":252,"sd":252,"df": 4},"nature":"Calm","ability":"Pressure","item":"Leftovers","moves":["Counter","Mirror Coat","Tant","Recover"]},
+	},
+	"Donphan": {
+		"1v1 Rockium Z": {"level":100,"evs":{"at":252,"hp":252,"sp":4},"nature":"Adamant","ability":"Sturdy","item":"Rockium Z","moves":["Earthquake","Head Smash","Ice Shard","Counter"]},
+		"1v1 Groundium Z": {"level":100,"evs":{"at":252,"sp":252,"hp":4},"nature":"Adamant","ability":"Sturdy","item":"Groundium Z","moves":["Earthquake","Head Smash","Ice Shard","Counter"]},
+	},
+	"Dragonite": {
+		"1v1 Dragonium Z": {"level":100,"evs":{"at":252,"sp":252,"sd":4},"nature":"Adamant","ability":"Multiscale","item":"Dragonium Z","moves":["Outrage","Extreme Speed","Earthquake","Fire Punch"]},
+		"1v1 Choice Band": {"level":100,"evs":{"at":252,"hp":252,"sp":4},"nature":"Adamant","ability":"Multiscale","item":"Choice Band","moves":["Outrage","Extreme Speed","Earthquake","Fire Punch"]},
+		"1v1 Weakness Policy": {"level":100,"evs":{"at":252,"sp":252,"sd":4},"nature":"Adamant","ability":"Multiscale","item":"Choice Band","moves":["Outrage","Extreme Speed","Earthquake","Fire Punch"]},
+	},
 	"Porygon-Z": {
 		"1v1 Standard Scarf": {"level":100,"evs":{"sd":4,"sa":252,"sp":252},"nature":"Timid","ability":"Adaptibility","item":"Choice Scarf","moves":["Hyper Beam", "Uproar", "Shadow Ball", "Ice Beam"]},
 		"1v1 Bulky Scarf": {"level":100,"evs":{"df":240,"sa":172,"sp":96},"nature":"Timid","ability":"Adaptibility","item":"Choice Scarf","moves":["Hyper Beam", "Uproar", "Shadow Ball", "Ice Beam"]},
