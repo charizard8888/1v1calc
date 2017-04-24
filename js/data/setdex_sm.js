@@ -30,20 +30,20 @@ var SETDEX_SM = {
 		"1v1 Air Balloon Lure": {"level":100,"evs":{"df":4,"sa":252,"hp":252},"nature":"Modest","ability":"Soul-Heart","item":"Air Balloon","moves":["Fleur Cannon","Ice Beam","Flash Cannon","Thunderbolt"]},
 	},
 	"Mawile-Mega": {
-		"1v1 Bulky Offense": {"level":100,"evs":{"at":252,"hp":248, "spe":8},"nature":"Adamant","ability":"Huge Power","item":"Mawilite","moves":["Play Rough","Iron Head","Sucker Punch","Fire Fang"]},
+		"1v1 Bulky Offense": {"level":100,"evs":{"at":252,"hp":248,"spe":8},"nature":"Adamant","ability":"Huge Power","item":"Mawilite","moves":["Play Rough","Iron Head","Sucker Punch","Fire Fang"]},
 	},
 	"Metagross-Mega": {
-		"1v1 Defensive": {"level":100,"evs":{"hp":252,"at":128, "spe":68, "df": 60},"nature":"Impish","ability":"Tough Claws","item":"Metagrossite","moves":["Bullet Punch","Meteor Mash","Thunder Punch","Earthquake"]},
+		"1v1 Defensive": {"level":100,"evs":{"hp":252,"at":128,"spe":68,"df": 60},"nature":"Impish","ability":"Tough Claws","item":"Metagrossite","moves":["Bullet Punch","Meteor Mash","Thunder Punch","Earthquake"]},
 	},
 	"Pinsir-Mega": {
-		"1v1 Hyper Cutter": {"level":100,"evs":{"at":252,"df":40, "spe":252},"nature":"Jolly","ability":"Aerilate","item":"Pinsirite","moves":["Giga Impact","Close Combat","Quick Attack","Earthquake"]},
-		"1v1 Mold Breaker": {"level":100,"evs":{"at":252,"hp":40, "spe":252},"nature":"Jolly","ability":"Aerilate","item":"Pinsirite","moves":["Giga Impact","Close Combat","Quick Attack","Earthquake"]},
+		"1v1 Hyper Cutter": {"level":100,"evs":{"at":252,"df":40,"spe":252},"nature":"Jolly","ability":"Aerilate","item":"Pinsirite","moves":["Giga Impact","Close Combat","Quick Attack","Earthquake"]},
+		"1v1 Mold Breaker": {"level":100,"evs":{"at":252,"hp":40,"spe":252},"nature":"Jolly","ability":"Aerilate","item":"Pinsirite","moves":["Giga Impact","Close Combat","Quick Attack","Earthquake"]},
 	},
 	"Slowbro-Mega": {
-		"1v1 Defense Booster": {"level":100,"evs":{"hp":248,"df":8, "sd":252},"nature":"Calm","ability":"Shell Armor","item":"Slowbronite","moves":["Rest","Scald","Iron Defense","Amnesia"]},
+		"1v1 Defense Booster": {"level":100,"evs":{"hp":248,"df":8,"sd":252},"nature":"Calm","ability":"Shell Armor","item":"Slowbronite","moves":["Rest","Scald","Iron Defense","Amnesia"]},
 	},
 	"Crustle": {
-		"1v1 Shell Smash Rockium Z": {"level":100,"evs":{"df":40,"at":244,"hp":112, "sp":112},"nature":"Adamant","ability":"Sturdy","item":"Rockium Z","moves":["Rock Wrecker","Shell Smash","Earthquake","X-Scissor"]},
+		"1v1 Shell Smash Rockium Z": {"level":100,"evs":{"df":40,"at":244,"hp":112,"sp":112},"nature":"Adamant","ability":"Sturdy","item":"Rockium Z","moves":["Rock Wrecker","Shell Smash","Earthquake","X-Scissor"]},
 	},
 	"Porygon-Z": {
 		"1v1 Standard Scarf": {"level":100,"evs":{"sd":4,"sa":252,"sp":252},"nature":"Timid","ability":"Adaptibility","item":"Choice Scarf","moves":["Hyper Beam", "Uproar", "Shadow Ball", "Ice Beam"]},
