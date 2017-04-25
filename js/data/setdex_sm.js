@@ -74,9 +74,9 @@ var SETDEX_SM = {
 		"1v1 Mixed Life Orb": {"level":100,"evs":{"sa":252,"sp":252,"at":4},"nature":"Hasty","ability":"Protean","item":"Life Orb","moves":["Hydro Pump","Shadow Sneak","Gunk Shot","Dark Pulse"]},
 	},
 	"Porygon-Z": {
-		"1v1 Standard Scarf": {"level":100,"evs":{"sd":4,"sa":252,"sp":252},"nature":"Timid","ability":"Adaptibility","item":"Choice Scarf","moves":["Hyper Beam", "Uproar", "Shadow Ball", "Ice Beam"]},
-		"1v1 Bulky Scarf": {"level":100,"evs":{"df":240,"sa":172,"sp":96},"nature":"Timid","ability":"Adaptibility","item":"Choice Scarf","moves":["Hyper Beam", "Uproar", "Shadow Ball", "Ice Beam"]},
-		"1v1 Bulky Specs": {"level":100,"evs":{"sa":132,"hp":252,"df":124},"nature":"Modest","ability":"Adaptibility","item":"Choice Scarf","moves":["Hyper Beam", "Uproar", "Shadow Ball", "Ice Beam"]},
-		"1v1 Bulky Z-Conversion": {"level":100,"evs":{"df":4,"sa":252,"hp":252},"nature":"Modest","ability":"Adaptibility","item":"Normalium Z","moves":["Thunderbolt", "Conversion", "Hyper Beam", "Ice Beam"]},
+		"1v1 Standard Scarf": {"level":100,"evs":{"sd":4,"sa":252,"sp":252},"nature":"Timid","ability":"Adaptability","item":"Choice Scarf","moves":["Hyper Beam", "Uproar", "Shadow Ball", "Ice Beam"]},
+		"1v1 Bulky Scarf": {"level":100,"evs":{"df":240,"sa":172,"sp":96},"nature":"Timid","ability":"Adaptability","item":"Choice Scarf","moves":["Hyper Beam", "Uproar", "Shadow Ball", "Ice Beam"]},
+		"1v1 Bulky Specs": {"level":100,"evs":{"sa":132,"hp":252,"df":124},"nature":"Modest","ability":"Adaptability","item":"Choice Scarf","moves":["Hyper Beam", "Uproar", "Shadow Ball", "Ice Beam"]},
+		"1v1 Bulky Z-Conversion": {"level":100,"evs":{"df":4,"sa":252,"hp":252},"nature":"Modest","ability":"Adaptability","item":"Normalium Z","moves":["Thunderbolt", "Conversion", "Hyper Beam", "Ice Beam"]},
 	},
 };
