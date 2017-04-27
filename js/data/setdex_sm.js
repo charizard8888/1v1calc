@@ -1,21 +1,23 @@
 var SETDEX_SM = {
 	"Charizard": {
 		"1v1 Pre-Mega Off Zard X": {"level":100,"evs":{"sd":4,"at":252,"sp":252},"nature":"Jolly","ability":"Tough Claws","item":"Charizardite X","moves":["Dragon Dance","Outrage","Flare Blitz","Earthquake"]},
-		"1v1 Pre-Mega Defensive Zard X": {"level":100,"evs":{"sp":8,"hp":248,"df":252},"nature":"Bold","ability":"Tough Claws","item":"Charizardite X","moves":["Outrage","Flare Blitz","Will-O-Wisp","Counter"]},
+		"1v1 Pre-Mega Defensive Zard X": {"level":100,"evs":{"sp":8,"hp":248,"df":252},"nature":"Impish","ability":"Tough Claws","item":"Charizardite X","moves":["Outrage","Flare Blitz","Will-O-Wisp","Counter"]},
 	},
 	"Charizard-Mega-X": {
 		"1v1 Offensive": {"level":100,"evs":{"sd":4,"at":252,"sp":252},"nature":"Jolly","ability":"Tough Claws","item":"Charizardite X","moves":["Dragon Dance","Outrage","Flare Blitz","Earthquake"]},
-		"1v1 Defensive": {"level":100,"evs":{"sp":8,"hp":248,"df":252},"nature":"Bold","ability":"Tough Claws","item":"Charizardite X","moves":["Outrage","Flare Blitz","Will-O-Wisp","Counter"]},
+		"1v1 Defensive": {"level":100,"evs":{"sp":8,"hp":248,"df":252},"nature":"Impish","ability":"Tough Claws","item":"Charizardite X","moves":["Outrage","Flare Blitz","Will-O-Wisp","Counter"]},
 	},
 	"Charizard-Mega-Y": {
 		"1v1 Offensive": {"level":100,"evs":{"sd":4,"sa":252,"sp":252},"nature":"Timid","ability":"Drought","item":"Charizardite Y","moves":["Air Slash","Blast Burn","Solar Beam","Dragon Pulse"]},
 		"1v1 Def": {"level":100,"evs":{"sp":216,"sa":64,"df":156, "hp":72,},"nature":"Modest","ability":"Drought","item":"Charizardite Y","moves":["Air Slash","Blast Burn","Solar Beam","Dragon Pulse"]},
 	},
 	"Kyurem-Black": {
-		"1v1 Choice Scarf": {"level":100,"evs":{"sd":4,"at":252,"sp":252},"nature":"Naive","ability":"Teravolt","item":"Choice Scarf","moves":["Outrage", "Fusion Bolt", "Iron Head", "Ice Beam"]},
-		"1v1 Choice Band": {"level":100,"evs":{"sd":4,"at":252,"sp":252},"nature":"Naive","ability":"Teravolt","item":"Choice Band","moves":["Outrage", "Fusion Bolt", "Iron Head", "Ice Beam"]},
+		"1v1 Choice Scarf": {"level":100,"evs":{"sa":4,"at":252,"sp":252},"nature":"Naive","ability":"Teravolt","item":"Choice Scarf","moves":["Outrage", "Fusion Bolt", "Earth Power", "Ice Beam"]},
+		"1v1 Offensive Haban Berry": {"level":100,"evs":{"sa":4,"at":252,"sp":252},"nature":"Naughty","ability":"Teravolt","item":"Haban Berry","moves":["Outrage", "Fusion Bolt", "Flash Cannon", "Ice Beam"]},
+		"1v1 Choice Specs": {"level":100,"evs":{"sd":4,"sa":252,"sp":252},"nature":"Timid","ability":"Teravolt","item":"Choice Specs","moves":["Draco Meteor", "Ice Beam", "Earth Power", "Flash Cannon"]},
 		"1v1 Fast Icium Z": {"level":100,"evs":{"at":252,"sp":252,"sd":4},"nature":"Jolly","ability":"Teravolt","item":"Icium Z","moves":["Outrage", "Fusion Bolt", "Iron Head", "Freeze Shock"]},
-		"1v1 Bulky Icium Z": {"level":100,"evs":{"at":252,"hp":248,"spe":8},"nature":"Adamant","ability":"Teravolt","item":"Icium Z","moves":["Outrage", "Fusion Bolt", "Iron Head", "Freeze Shock"]},
+		"1v1 Bulky Icium Z": {"level":100,"evs":{"at":16,"hp":248,"df":200,"sd":44},"nature":"Relaxed","ability":"Teravolt","item":"Icium Z","moves":["Outrage", "Fusion Bolt", "Iron Head", "Freeze Shock"]},
+		"1v1 Bulky Weakness Policy": {"level":100,"evs":{"at":28,"hp":212,"df":252,"sd":16},"nature":"Relaxed","ability":"Teravolt","item":"Weakness Policy","moves":["Outrage", "Fusion Bolt", "Ice Beam", "Earth Power"]},
 	},
 	"Gyarados": {
 		"1v1 Pre-Mega Standard": {"level":100,"evs":{"hp":88,"at":252,"sp":88,"df":80},"nature":"Adamant","ability":"Mold Breaker","item":"Gyaradosite","moves":["Waterfall","Crunch","Outrage","Earthquake"]},
@@ -73,10 +75,43 @@ var SETDEX_SM = {
 		"1v1 Waterium Z": {"level":100,"evs":{"sa":252,"sp":252,"sd":4},"nature":"Timid","ability":"Protean","item":"Waterium Z","moves":["Hydro Cannon","Grass Knot","Dark Pulse","Water Shuriken"]},
 		"1v1 Mixed Life Orb": {"level":100,"evs":{"sa":252,"sp":252,"at":4},"nature":"Hasty","ability":"Protean","item":"Life Orb","moves":["Hydro Pump","Shadow Sneak","Gunk Shot","Dark Pulse"]},
 	},
+	"Magnezone": {
+		"1v1 Choice Specs": {"level":100,"evs":{"sa":252,"sp":212,"hp":44},"nature":"Modest","ability":"Sturdy","item":"Choice Specs","moves":["Thunderbolt","Flash Cannon","Hidden Power [Ice]","Hyper Beam"]},
+		"1v1 Electrium Z": {"level":100,"evs":{"sa":252,"sp":136,"hp":120},"nature":"Modest","ability":"Sturdy","item":"Electrium Z","moves":["Thunder","Flash Cannon","Hidden Power [Ice]","Electroweb"]},
+		"1v1 Electrium Z": {"level":100,"evs":{"sa":252,"sp":144,"hp":112},"nature":"Modest","ability":"Sturdy","item":"Air Balloon","moves":["Thunder","Flash Cannon","Hidden Power [Ice]","Electroweb"]},
+	},
+	"Meloetta": {
+		"1v1 Choice Specs": {"level":100,"evs":{"sa":252,"sp":8,"hp":248},"nature":"Modest","ability":"Serene Grace","item":"Choice Specs","moves":["Hyper Beam","Psychic","Shadow Ball","Trick"]},
+	},
+	"Mimikyu": {
+		"1v1 Ghostium Z": {"level":100,"evs":{"at":252,"sp":252,"sd":4},"nature":"Jolly","ability":"Disguise","item":"Ghostium Z","moves":["Shadow Claw","Play Rough","Wood Hammer","Shadow Sneak"]},
+		"1v1 Fairium Z": {"level":100,"evs":{"at":252,"sp":252,"sd":4},"nature":"Jolly","ability":"Disguise","item":"Fairium Z","moves":["Shadow Claw","Play Rough","Wood Hammer","Shadow Sneak"]},
+		"1v1 Curse": {"level":100,"evs":{"hp":252,"sp":252,"at":4},"nature":"Jolly","ability":"Disguise","item":"Ghostium Z","moves":["Curse","Substitute","Protect","Shadow Sneak"]},
+	},
+	"Venusaur-Mega": {
+		"1v1 Leech Seed Stall": {"level":100,"evs":{"hp":216,"df":76,"sd":216},"nature":"Bold","ability":"Thick Fat","item":"Venusaurite","moves":["Leech Seed","Synthesis","Giga Drain","Sludge Bomb"]},
+		"1v1 Charm Wall": {"level":100,"evs":{"hp":252,"sa":4,"sd":252},"nature":"Calm","ability":"Thick Fat","item":"Venusaurite","moves":["Leech Seed","Charm","Giga Drain","Sludge Bomb"]},
+	},
+	"Aegislash-Blade": {
+		"1v1 Ghostium Z": {"level":100,"evs":{"sa":252,"sd":4,"hp":248,"at":4},"nature":"Quiet","ability":"Stance Change","item":"Ghostium Z","moves":["Shadow Ball","Flash Cannon","King's Shield","Shadow Sneak"]},
+		"1v1 Weakness Policy": {"level":100,"evs":{"sa":252,"sd":4,"hp":248,"at":4},"nature":"Quiet","ability":"Stance Change","item":"Ghostium Z","moves":["Shadow Ball","Flash Cannon","King's Shield","Shadow Sneak"]},
+	},
+	"Aegislash-Shield": {
+		"1v1 Ghostium Z": {"level":100,"evs":{"sa":252,"sd":4,"hp":248,"at":4},"nature":"Quiet","ability":"Stance Change","item":"Ghostium Z","moves":["Shadow Ball","Flash Cannon","King's Shield","Shadow Sneak"]},
+		"1v1 Weakness Policy": {"level":100,"evs":{"sa":252,"sd":4,"hp":248,"at":4},"nature":"Quiet","ability":"Stance Change","item":"Ghostium Z","moves":["Shadow Ball","Flash Cannon","King's Shield","Shadow Sneak"]},
+	},
+	"Chansey": {
+		"1v1 Charm Wall": {"level":100,"evs":{"df":252,"sd":8,"hp":248},"nature":"Bold","ability":"Serene Grace","item":"Eviolite","moves":["Charm","Seismic Toss","Counter","Toxic"]},
+	},
+	"Garchomp": {
+		"1v1 Choice Band": {"level":100,"evs":{"sd":4,"at":252,"sp":252},"nature":"Jolly","ability":"Rough Skin","item":"Choice Band","moves":["Outrage","Earthquake","Fire Fang","Poison Jab"]},
+		"1v1 Choice Scarf": {"level":100,"evs":{"sd":4,"at":252,"sp":252},"nature":"Jolly","ability":"Rough Skin","item":"Choice Scarf","moves":["Outrage","Earthquake","Fire Fang","Poison Jab"]},
+		"1v1 SubTonic Rage": {"level":100,"evs":{"sd":4,"at":252,"sp":252},"nature":"Jolly","ability":"Rough Skin","item":"Groundium Z","moves":["Outrage","Earthquake","Fire Fang","Swords Dance"]},
+	},
 	"Porygon-Z": {
 		"1v1 Standard Scarf": {"level":100,"evs":{"sd":4,"sa":252,"sp":252},"nature":"Timid","ability":"Adaptability","item":"Choice Scarf","moves":["Hyper Beam", "Uproar", "Shadow Ball", "Ice Beam"]},
 		"1v1 Bulky Scarf": {"level":100,"evs":{"df":240,"sa":172,"sp":96},"nature":"Timid","ability":"Adaptability","item":"Choice Scarf","moves":["Hyper Beam", "Uproar", "Shadow Ball", "Ice Beam"]},
-		"1v1 Bulky Specs": {"level":100,"evs":{"sa":132,"hp":252,"df":124},"nature":"Modest","ability":"Adaptability","item":"Choice Scarf","moves":["Hyper Beam", "Uproar", "Shadow Ball", "Ice Beam"]},
+		"1v1 Bulky Specs": {"level":100,"evs":{"sa":132,"hp":252,"df":124},"nature":"Modest","ability":"Adaptability","item":"Choice Specs","moves":["Hyper Beam", "Uproar", "Shadow Ball", "Ice Beam"]},
 		"1v1 Bulky Z-Conversion": {"level":100,"evs":{"df":4,"sa":252,"hp":252},"nature":"Modest","ability":"Adaptability","item":"Normalium Z","moves":["Thunderbolt", "Conversion", "Hyper Beam", "Ice Beam"]},
 	},
 };
