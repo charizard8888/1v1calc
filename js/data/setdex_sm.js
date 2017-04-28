@@ -13,10 +13,10 @@ var SETDEX_SM = {
 	},
 	"Kyurem-Black": {
 		"1v1 Choice Scarf": {"level":100,"evs":{"sa":4,"at":252,"sp":252},"nature":"Naive","ability":"Teravolt","item":"Choice Scarf","moves":["Outrage", "Fusion Bolt", "Earth Power", "Ice Beam"]},
-		"1v1 Offensive Haban Berry": {"level":100,"evs":{"sa":4,"at":252,"sp":252},"nature":"Naughty","ability":"Teravolt","item":"Haban Berry","moves":["Outrage", "Fusion Bolt", "Flash Cannon", "Ice Beam"]},
 		"1v1 Choice Specs": {"level":100,"evs":{"sd":4,"sa":252,"sp":252},"nature":"Timid","ability":"Teravolt","item":"Choice Specs","moves":["Draco Meteor", "Ice Beam", "Earth Power", "Flash Cannon"]},
 		"1v1 Fast Icium Z": {"level":100,"evs":{"at":252,"sp":252,"sd":4},"nature":"Jolly","ability":"Teravolt","item":"Icium Z","moves":["Outrage", "Fusion Bolt", "Iron Head", "Freeze Shock"]},
 		"1v1 Bulky Icium Z": {"level":100,"evs":{"at":16,"hp":248,"df":200,"sd":44},"nature":"Relaxed","ability":"Teravolt","item":"Icium Z","moves":["Outrage", "Fusion Bolt", "Iron Head", "Freeze Shock"]},
+		"1v1 Offensive Haban Berry": {"level":100,"evs":{"sa":4,"at":252,"sp":252},"nature":"Naughty","ability":"Teravolt","item":"Haban Berry","moves":["Outrage", "Fusion Bolt", "Flash Cannon", "Ice Beam"]},
 		"1v1 Bulky Weakness Policy": {"level":100,"evs":{"at":28,"hp":212,"df":252,"sd":16},"nature":"Relaxed","ability":"Teravolt","item":"Weakness Policy","moves":["Outrage", "Fusion Bolt", "Ice Beam", "Earth Power"]},
 	},
 	"Gyarados": {
@@ -107,6 +107,17 @@ var SETDEX_SM = {
 		"1v1 Choice Band": {"level":100,"evs":{"sd":4,"at":252,"sp":252},"nature":"Jolly","ability":"Rough Skin","item":"Choice Band","moves":["Outrage","Earthquake","Fire Fang","Poison Jab"]},
 		"1v1 Choice Scarf": {"level":100,"evs":{"sd":4,"at":252,"sp":252},"nature":"Jolly","ability":"Rough Skin","item":"Choice Scarf","moves":["Outrage","Earthquake","Fire Fang","Poison Jab"]},
 		"1v1 SubTonic Rage": {"level":100,"evs":{"sd":4,"at":252,"sp":252},"nature":"Jolly","ability":"Rough Skin","item":"Groundium Z","moves":["Outrage","Earthquake","Fire Fang","Swords Dance"]},
+	},
+	"Genesect": {
+		"1v1 Choice Specs": {"level":100,"evs":{"sp":4,"sa":252,"hp":252},"nature":"Modest","ability":"Download","item":"Choice Specs","moves":["Bug Buzz","Flash Cannon","Thunderbolt","Flamethrower"]},
+		"1v1 Choice Scarf": {"level":100,"evs":{"at":4,"sa":252,"hp":252},"nature":"Hasty","ability":"Download","item":"Choice Scarf","moves":["Bug Buzz","Iron Head","Thunderbolt","Flamethrower"]},
+	},
+	"Kartana": {
+		"1v1 Z Move Attacker": {"level":100,"evs":{"sd":4,"sp":252,"at":252},"nature":"Jolly","ability":"Beast Boost","item":"Grassium Z","moves":["Leaf Blade","Smart Strike","Swords Dance","Substitute"]},
+		"1v1 Choice Band": {"level":100,"evs":{"sd":4,"sp":252,"at":252},"nature":"Jolly","ability":"Beast Boost","item":"Choice Band","moves":["Leaf Blade","Smart Strike","Giga Impact","Sacred Sword"]},
+	},
+	"Gengar-Mega": {
+		"1v1 Hypnosis Hex": {"level":100,"evs":{"sp":252,"sd":4,"sa":252},"nature":"Timid","ability":"Shadow Tag","item":"Gengarite","moves":["Hypnosis","Hex","Sludge Wave","Will-O-Wisp"]},
 	},
 	"Porygon-Z": {
 		"1v1 Standard Scarf": {"level":100,"evs":{"sd":4,"sa":252,"sp":252},"nature":"Timid","ability":"Adaptability","item":"Choice Scarf","moves":["Hyper Beam", "Uproar", "Shadow Ball", "Ice Beam"]},
