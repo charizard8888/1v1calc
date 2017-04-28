@@ -119,6 +119,9 @@ var SETDEX_SM = {
 	"Gengar-Mega": {
 		"1v1 Hypnosis Hex": {"level":100,"evs":{"sp":252,"sd":4,"sa":252},"nature":"Timid","ability":"Shadow Tag","item":"Gengarite","moves":["Hypnosis","Hex","Sludge Wave","Will-O-Wisp"]},
 	},
+	"Jirachi": {
+		"1v1 Choice Scarf": {"level":100,"evs":{"sp":252,"sd":4,"at":252},"nature":"Jolly","ability":"Serene Grace","item":"Choice Scarf","moves":["Iron Head","Zen Headbutt","Fire Punch","Trick"]},
+	},
 	"Porygon-Z": {
 		"1v1 Standard Scarf": {"level":100,"evs":{"sd":4,"sa":252,"sp":252},"nature":"Timid","ability":"Adaptability","item":"Choice Scarf","moves":["Hyper Beam", "Uproar", "Shadow Ball", "Ice Beam"]},
 		"1v1 Bulky Scarf": {"level":100,"evs":{"df":240,"sa":172,"sp":96},"nature":"Timid","ability":"Adaptability","item":"Choice Scarf","moves":["Hyper Beam", "Uproar", "Shadow Ball", "Ice Beam"]},
