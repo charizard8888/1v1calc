@@ -164,7 +164,21 @@ var SETDEX_SM = {
 		"1v1 Groundium Z": {"level":100,"evs":{"at":20,"sd":148,"hp":216,"sp":124},"nature":"Careful","ability":"Solid Rock","item":"Groundium Z","moves":["Earthquake","Rock Wrecker","Rock Tomb","Fire Punch"]},
 	},
 	"Sawk": {
-		"1v1 Fightimgium Z": {"level":100,"evs":{"at":252,"sp":252,"sp":4},"nature":"Adamant","ability":"Sturdy","item":"Rockium Z","moves":["Earthquake","Head Smash","Ice Shard","Counter"]},
-		"1v1 Groundium Z": {"level":100,"evs":{"at":252,"sp":252,"hp":4},"nature":"Adamant","ability":"Sturdy","item":"Groundium Z","moves":["Earthquake","Head Smash","Ice Shard","Counter"]},
+		"1v1 Fightimgium Z": {"level":100,"evs":{"at":252,"sp":252,"sd":4},"nature":"Adamant","ability":"Sturdy","item":"Fightimgium Z","moves":["Close Combat","Rock Tomb","Poison Jab","Earthquake"]},
+		"1v1 Choice Scarf": {"level":100,"evs":{"at":252,"sp":252,"sd":4},"nature":"Jolly","ability":"Sturdy","item":"Choice Scarf","moves":["Close Combat","Stone Edge","Poison Jab","Earthquake"]},
+	},
+	"Snorlax": {
+		"1v1 Belly Drum": {"level":100,"evs":{"sd":4,"at":252,"hp":252},"nature":"Adamant","ability":"Gluttony","item":"Figy Berry","moves":["Belly Drum","Giga Impact","Crunch","Superpower"]},
+		"1v1 Normalium Z": {"level":100,"evs":{"sd":8,"at":252,"hp":248},"nature":"Adamant","ability":"Thick Fat","item":"Nromalium Z","moves":["Belly Drum","Souble Edge","Yawn","Protect"]},
+		"1v1 CurseLax": {"level":100,"evs":{"sd":4,"at":252,"hp":252},"nature":"Adamant","ability":"Gluttony","item":"Figy Berry","moves":["Curse","Giga Impact","Crunch","Counter"]},
+	},
+	"Umbreon": {
+		"1v1 Charm Wall": {"level":100,"evs":{"hp":252,"sd":160,"df":100},"nature":"Calm","ability":"Synchronise","item":"Fairium Z","moves":["Charm","Moonlight","Foul Play","Snarl"]},
+	},
+	"Victini": {
+		"1v1 Choice Band": {"level":100,"evs":{"sd":4,"at":252,"sp":252},"nature":"Jolly","ability":"Victory Star","item":"Choice Band","moves":["V-create","Bolt Strike","Zen Headbutt","Trick"]},
+	},
+	"Whimsicott": {
+		"1v1 Leech Seed Stall": {"level":100,"evs":{"hp":252,"df":252,"sd":4},"nature":"Bold","ability":"Prankster","item":"Babiri Berry","moves":["Leech Seed","Protect","Substitute","Moonblast"]},
 	},
 };
