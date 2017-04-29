@@ -20,19 +20,21 @@ var SETDEX_SM = {
 		"1v1 Bulky Weakness Policy": {"level":100,"evs":{"at":28,"hp":212,"df":252,"sd":16},"nature":"Relaxed","ability":"Teravolt","item":"Weakness Policy","moves":["Outrage", "Fusion Bolt", "Ice Beam", "Earth Power"]},
 	},
 	"Gyarados": {
-		"1v1 Pre-Mega Standard": {"level":100,"evs":{"hp":88,"at":252,"sp":88,"df":80},"nature":"Adamant","ability":"Mold Breaker","item":"Gyaradosite","moves":["Waterfall","Crunch","Outrage","Earthquake"]},
-		"1v1 Pre-Mega Bulky": {"level":100,"evs":{"hp":104,"at":196,"sd":8,"sp":100,"df":100},"nature":"Adamant","ability":"Mold Breaker","item":"Gyaradosite","moves":["Waterfall","Crunch","Outrage","Earthquake"]},
+		"1v1 Pre-Mega Standard": {"level":100,"evs":{"hp":88,"at":252,"sp":88,"df":80},"nature":"Adamant","ability":"Intimidate","item":"Gyaradosite","moves":["Waterfall","Crunch","Outrage","Earthquake"]},
+		"1v1 Pre-Mega Bulky": {"level":100,"evs":{"hp":104,"at":196,"sd":8,"sp":100,"df":100},"nature":"Adamant","ability":"Intimidate","item":"Gyaradosite","moves":["Waterfall","Crunch","Outrage","Earthquake"]},
 	},
 	"Gyarados-Mega": {
 		"1v1 Standard": {"level":100,"evs":{"hp":88,"at":252,"sp":88,"df":80},"nature":"Adamant","ability":"Mold Breaker","item":"Gyaradosite","moves":["Waterfall","Crunch","Outrage","Earthquake"]},
 		"1v1 Bulky": {"level":100,"evs":{"hp":104,"at":196,"sd":8,"sp":100,"df":100},"nature":"Adamant","ability":"Mold Breaker","item":"Gyaradosite","moves":["Waterfall","Crunch","Outrage","Earthquake"]},
 	},
-	"Magearna": {
-		"1v1 Choice Specs": {"level":100,"evs":{"df":28,"sa":228,"hp":252},"nature":"Modest","ability":"Soul-Heart","item":"Choice Specs","moves":["Fleur Cannon","Aura Sphere","Flash Cannon","Thunderbolt"]},
-		"1v1 Air Balloon Lure": {"level":100,"evs":{"df":4,"sa":252,"hp":252},"nature":"Modest","ability":"Soul-Heart","item":"Air Balloon","moves":["Fleur Cannon","Ice Beam","Flash Cannon","Thunderbolt"]},
-	},
 	"Mawile-Mega": {
 		"1v1 Bulky Offense": {"level":100,"evs":{"at":252,"hp":248,"spe":8},"nature":"Adamant","ability":"Huge Power","item":"Mawilite","moves":["Play Rough","Iron Head","Sucker Punch","Fire Fang"]},
+	},
+	"Porygon-Z": {
+		"1v1 Standard Scarf": {"level":100,"evs":{"sd":4,"sa":252,"sp":252},"nature":"Timid","ability":"Adaptability","item":"Choice Scarf","moves":["Hyper Beam", "Uproar", "Shadow Ball", "Ice Beam"]},
+		"1v1 Bulky Scarf": {"level":100,"evs":{"df":240,"sa":172,"sp":96},"nature":"Timid","ability":"Adaptability","item":"Choice Scarf","moves":["Hyper Beam", "Uproar", "Shadow Ball", "Ice Beam"]},
+		"1v1 Bulky Specs": {"level":100,"evs":{"sa":132,"hp":252,"df":124},"nature":"Modest","ability":"Adaptability","item":"Choice Specs","moves":["Hyper Beam", "Uproar", "Shadow Ball", "Ice Beam"]},
+		"1v1 Bulky Z-Conversion": {"level":100,"evs":{"df":4,"sa":252,"hp":252},"nature":"Modest","ability":"Adaptability","item":"Normalium Z","moves":["Thunderbolt", "Conversion", "Hyper Beam", "Ice Beam"]},
 	},
 	"Metagross-Mega": {
 		"1v1 Defensive": {"level":100,"evs":{"hp":252,"at":128,"spe":68,"df": 60},"nature":"Impish","ability":"Tough Claws","item":"Metagrossite","moves":["Bullet Punch","Meteor Mash","Thunder Punch","Earthquake"]},
@@ -46,6 +48,10 @@ var SETDEX_SM = {
 	},
 	"Crustle": {
 		"1v1 Shell Smash Rockium Z": {"level":100,"evs":{"df":40,"at":244,"hp":112,"sp":112},"nature":"Adamant","ability":"Sturdy","item":"Rockium Z","moves":["Rock Wrecker","Shell Smash","Earthquake","X-Scissor"]},
+	},
+	"Magearna": {
+		"1v1 Choice Specs": {"level":100,"evs":{"df":28,"sa":228,"hp":252},"nature":"Modest","ability":"Soul-Heart","item":"Choice Specs","moves":["Fleur Cannon","Aura Sphere","Flash Cannon","Thunderbolt"]},
+		"1v1 Air Balloon Lure": {"level":100,"evs":{"df":4,"sa":252,"hp":252},"nature":"Modest","ability":"Soul-Heart","item":"Air Balloon","moves":["Fleur Cannon","Ice Beam","Flash Cannon","Thunderbolt"]},
 	},
 	"Tapu Koko": {
 		"1v1 Physical Electrium Z": {"level":100,"evs":{"sd":4,"at":252,"sp":252},"nature":"Jolly","ability":"Electric Surge","item":"Electrium Z","moves":["Wild Charge","Taunt","Substitute","Charge"]},
@@ -76,9 +82,9 @@ var SETDEX_SM = {
 		"1v1 Mixed Life Orb": {"level":100,"evs":{"sa":252,"sp":252,"at":4},"nature":"Hasty","ability":"Protean","item":"Life Orb","moves":["Hydro Pump","Shadow Sneak","Gunk Shot","Dark Pulse"]},
 	},
 	"Magnezone": {
-		"1v1 Choice Specs": {"level":100,"evs":{"sa":252,"sp":212,"hp":44},"nature":"Modest","ability":"Sturdy","item":"Choice Specs","moves":["Thunderbolt","Flash Cannon","Hidden Power [Ice]","Hyper Beam"]},
-		"1v1 Electrium Z": {"level":100,"evs":{"sa":252,"sp":136,"hp":120},"nature":"Modest","ability":"Sturdy","item":"Electrium Z","moves":["Thunder","Flash Cannon","Hidden Power [Ice]","Electroweb"]},
-		"1v1 Electrium Z": {"level":100,"evs":{"sa":252,"sp":144,"hp":112},"nature":"Modest","ability":"Sturdy","item":"Air Balloon","moves":["Thunder","Flash Cannon","Hidden Power [Ice]","Electroweb"]},
+		"1v1 Choice Specs": {"level":100,"evs":{"sa":252,"sp":212,"hp":44},"nature":"Modest","ability":"Sturdy","item":"Choice Specs","moves":["Thunderbolt","Flash Cannon","Hidden Power Ice","Hyper Beam"]},
+		"1v1 Electrium Z": {"level":100,"evs":{"sa":252,"sp":136,"hp":120},"nature":"Modest","ability":"Sturdy","item":"Electrium Z","moves":["Thunder","Flash Cannon","Hidden Power Ice","Electroweb"]},
+		"1v1 Electrium Z": {"level":100,"evs":{"sa":252,"sp":144,"hp":112},"nature":"Modest","ability":"Sturdy","item":"Air Balloon","moves":["Thunder","Flash Cannon","Hidden Power Ice","Electroweb"]},
 	},
 	"Meloetta": {
 		"1v1 Choice Specs": {"level":100,"evs":{"sa":252,"sp":8,"hp":248},"nature":"Modest","ability":"Serene Grace","item":"Choice Specs","moves":["Hyper Beam","Psychic","Shadow Ball","Trick"]},
@@ -120,12 +126,45 @@ var SETDEX_SM = {
 		"1v1 Hypnosis Hex": {"level":100,"evs":{"sp":252,"sd":4,"sa":252},"nature":"Timid","ability":"Shadow Tag","item":"Gengarite","moves":["Hypnosis","Hex","Sludge Wave","Will-O-Wisp"]},
 	},
 	"Jirachi": {
-		"1v1 Choice Scarf": {"level":100,"evs":{"sp":252,"sd":4,"at":252},"nature":"Jolly","ability":"Serene Grace","item":"Choice Scarf","moves":["Iron Head","Zen Headbutt","Fire Punch","Trick"]},
+		"1v1 Choice Scarf Flinch": {"level":100,"evs":{"sp":252,"sd":4,"at":252},"nature":"Jolly","ability":"Serene Grace","item":"Choice Scarf","moves":["Iron Head","Zen Headbutt","Fire Punch","Trick"]},
 	},
-	"Porygon-Z": {
-		"1v1 Standard Scarf": {"level":100,"evs":{"sd":4,"sa":252,"sp":252},"nature":"Timid","ability":"Adaptability","item":"Choice Scarf","moves":["Hyper Beam", "Uproar", "Shadow Ball", "Ice Beam"]},
-		"1v1 Bulky Scarf": {"level":100,"evs":{"df":240,"sa":172,"sp":96},"nature":"Timid","ability":"Adaptability","item":"Choice Scarf","moves":["Hyper Beam", "Uproar", "Shadow Ball", "Ice Beam"]},
-		"1v1 Bulky Specs": {"level":100,"evs":{"sa":132,"hp":252,"df":124},"nature":"Modest","ability":"Adaptability","item":"Choice Specs","moves":["Hyper Beam", "Uproar", "Shadow Ball", "Ice Beam"]},
-		"1v1 Bulky Z-Conversion": {"level":100,"evs":{"df":4,"sa":252,"hp":252},"nature":"Modest","ability":"Adaptability","item":"Normalium Z","moves":["Thunderbolt", "Conversion", "Hyper Beam", "Ice Beam"]},
+	"Jumpluff": {
+		"1v1 Leech Seed Stall": {"level":100,"evs":{"df":252,"sd":4,"sp":252},"nature":"Jolly","ability":"Infliltrator","item":"Wide Lens","moves":["Leech Seed","Sleep Powder","Substitute","Protect"]},
+	},
+	"Golem": {
+		"1v1 Z Move Attacker": {"level":100,"evs":{"at":252,"hp":252,"sp":4},"nature":"Adamant","ability":"Sturdy","item":"Rockium Z","moves":["Earthquake","Stone Edge","Sucker Punch","Fire Punch"]},
+	},
+	"Landorus": {
+		"1v1 Substitute Attacker": {"level":100,"evs":{"sa":252,"at":4,"sp":252},"nature":"Hasty","ability":"Sheer Force","item":"Life Orb","moves":["Earth Power","Hidden Power Ice","Rock Slide","Sludge Wave"]},
+	},
+	"Primarina": {
+		"1v1 Choice Specs": {"level":100,"evs":{"sa":252,"sp":4,"sp":252},"nature":"Modest","ability":"Torrent","item":"Choice Specs","moves":["Hydro Cannon","Moonblast","Shadow Ball","Hidden Power Fire"]},
+		"1v1 Waterium Z": {"level":100,"evs":{"sa":252,"sp":4,"sp":252},"nature":"Modest","ability":"Torrent","item":"Waterium Z","moves":["Hydro Cannon","Moonblast","Energy Ball","Aqua Jet"]},
+	},
+	"Tapu Fini": {
+		"1v1 Waterium Z": {"level":100,"evs":{"sa":80,"df":180,"hp":192, "sp":56},"nature":"Bold","ability":"Misty Surge","item":"Waterium Z","moves":["Hydro Pump","Moonblast","Rain Dance","Calm Mind"]},
+		"1v1 Choice Specs": {"level":100,"evs":{"sa":252,"df":8,"hp":248},"nature":"Modest","ability":"Misty Surge","item":"Choice Specs","moves":["Hydro Pump","Moonblast","Grass Knot","Hidden Power Rock"]},
+	},
+	"Togekiss": {
+		"1v1 Choice Scarf Flinch Hax": {"level":100,"evs":{"sp":252,"sd":4,"sa":252},"nature":"Timid","ability":"Serene Grace","item":"Choice Scarf","moves":["Air Slash","Dazzling Gleam","Flamethrower","Aura Sphere"]},
+	},
+	"Celesteela": {
+		"1v1 Leech Seed Stall": {"level":100,"evs":{"df":252,"at":4,"hp":252},"nature":"Relaxed","ability":"Beast Boost","item":"Leftovers","moves":["Leech Seed","Heavy Slam","Substitute","Protect"]},
+	},
+	"Durant": {
+		"1v1 RNGseus Band": {"level":100,"evs":{"df":28,"at":252,"sp":252},"nature":"Jolly","ability":"Hustle","item":"Choice Band","moves":["Outrage","Earthquake","Fire Fang","Poison Jab"]},
+	},
+	"Ferrohtorn": {
+		"1v1 Leech Seed Stall": {"level":100,"evs":{"df":116,"sd":144,"hp":248},"nature":"Impish","ability":"Iron Barbs","item":"Leftovers","moves":["Leech Seed","Toxic","Power Whip","Protect"]},
+	},
+	"Landorus-Therian": {
+		"1v1 Groundium Z": {"level":100,"evs":{"at":252,"sd":4,"sp":252},"nature":"Jolly","ability":"Intimidate","item":"Groundium Z","moves":["Earthquake","Bulk Up","Rock Tomb","Substitute"]},
+	},
+	"Rhyperior": {
+		"1v1 Groundium Z": {"level":100,"evs":{"at":20,"sd":148,"hp":216,"sp":124},"nature":"Careful","ability":"Solid Rock","item":"Groundium Z","moves":["Earthquake","Rock Wrecker","Rock Tomb","Fire Punch"]},
+	},
+	"Sawk": {
+		"1v1 Fightimgium Z": {"level":100,"evs":{"at":252,"sp":252,"sp":4},"nature":"Adamant","ability":"Sturdy","item":"Rockium Z","moves":["Earthquake","Head Smash","Ice Shard","Counter"]},
+		"1v1 Groundium Z": {"level":100,"evs":{"at":252,"sp":252,"hp":4},"nature":"Adamant","ability":"Sturdy","item":"Groundium Z","moves":["Earthquake","Head Smash","Ice Shard","Counter"]},
 	},
 };
