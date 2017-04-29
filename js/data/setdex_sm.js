@@ -64,7 +64,7 @@ var SETDEX_SM = {
 		"1v1 Choice Scarf": {"level":100,"evs":{"sp":252,"sa":252,"sd":56},"nature":"Timid","ability":"Psychic Surge","item":"Choice Scarf","moves":["Psychic","Thunderbolt","Moonblast","Shadow Ball"]},
 	},
 	"Deoxys-Defense": {
-		"1v1 Under Pressure": {"level":100,"evs":{"hp":248,"spe":252,"df": 8},"nature":"Timid","ability":"Pressure","item":"Sitrus Berry","moves":["Taunt","Iron Defense","Amnesia","Recover"]},
+		"1v1 Under Pressure": {"level":100,"evs":{"hp":248,"sp":252,"df": 8},"nature":"Timid","ability":"Pressure","item":"Sitrus Berry","moves":["Taunt","Iron Defense","Amnesia","Recover"]},
 		"1v1 Z-Cosmic Power": {"level":100,"evs":{"hp":248,"df":252,"sd": 8},"nature":"Bold","ability":"Pressure","item":"Psychium Z","moves":["Cosmic Power","Mud Slap","Tant","Recover"]},
 		"1v1 CounterCoat": {"level":100,"evs":{"hp":252,"sd":252,"df": 4},"nature":"Calm","ability":"Pressure","item":"Leftovers","moves":["Counter","Mirror Coat","Tant","Recover"]},
 	},
@@ -212,7 +212,7 @@ var SETDEX_SM = {
 	"Quagsire": {
 		"1v1 Z-Stockpile": {"level":100,"evs":{"sd":240,"hp":252,"df":16},"nature":"Calm","ability":"Unaware","item":"Normalium Z","moves":["Stockpile","Scald","Recover","Toxic"]},
 	},
-	"Deoxys-Defense": {
+	"Deoxys-Speed": {
 		"1v1 Dual Screen": {"level":100,"evs":{"hp":152,"sp":236,"sa":120},"nature":"Timid","ability":"Pressure","item":"Psychium Z","moves":["Reflect","Light Screen","Psychic","Recover"]},
 	},
 	"Araquanid": {
