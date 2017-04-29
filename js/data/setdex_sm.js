@@ -8,14 +8,15 @@ var SETDEX_SM = {
 		"1v1 Defensive": {"level":100,"evs":{"sp":8,"hp":248,"df":252},"nature":"Impish","ability":"Tough Claws","item":"Charizardite X","moves":["Outrage","Flare Blitz","Will-O-Wisp","Counter"]},
 	},
 	"Charizard-Mega-Y": {
-		"1v1 Offensive": {"level":100,"evs":{"sd":4,"sa":252,"sp":252},"nature":"Timid","ability":"Drought","item":"Charizardite Y","moves":["Air Slash","Blast Burn","Solar Beam","Dragon Pulse"]},
-		"1v1 Def": {"level":100,"evs":{"sp":216,"sa":64,"df":156, "hp":72,},"nature":"Modest","ability":"Drought","item":"Charizardite Y","moves":["Air Slash","Blast Burn","Solar Beam","Dragon Pulse"]},
+		"1v1 Sun Attacker": {"level":100,"evs":{"sd":4,"sa":252,"sp":252},"nature":"Timid","ability":"Drought","item":"Charizardite Y","moves":["Air Slash","Blast Burn","Solar Beam","Ancient Power"]},
+		"1v1 Bulky Special Attacker": {"level":100,"evs":{"sp":216,"sa":64,"df":156, "hp":72,},"nature":"Modest","ability":"Drought","item":"Charizardite Y","moves":["Air Slash","Blast Burn","Solar Beam","Ancient Power"]},
 	},
 	"Kyurem-Black": {
 		"1v1 Choice Scarf": {"level":100,"evs":{"sa":4,"at":252,"sp":252},"nature":"Naive","ability":"Teravolt","item":"Choice Scarf","moves":["Outrage", "Fusion Bolt", "Earth Power", "Ice Beam"]},
 		"1v1 Choice Specs": {"level":100,"evs":{"sd":4,"sa":252,"sp":252},"nature":"Timid","ability":"Teravolt","item":"Choice Specs","moves":["Draco Meteor", "Ice Beam", "Earth Power", "Flash Cannon"]},
 		"1v1 Fast Icium Z": {"level":100,"evs":{"at":252,"sp":252,"sd":4},"nature":"Jolly","ability":"Teravolt","item":"Icium Z","moves":["Outrage", "Fusion Bolt", "Iron Head", "Freeze Shock"]},
 		"1v1 Bulky Icium Z": {"level":100,"evs":{"at":16,"hp":248,"df":200,"sd":44},"nature":"Relaxed","ability":"Teravolt","item":"Icium Z","moves":["Outrage", "Fusion Bolt", "Iron Head", "Freeze Shock"]},
+		"1v1 Groundium Z": {"level":100,"evs":{"hp":16,"df":236,"sa":252,"sp":4},"nature":"Modest","ability":"Teravolt","item":"Groundium Z","moves":["Draco Meteor", "ice Beam", "Earth Power", "Rock Tomb"]},
 		"1v1 Offensive Haban Berry": {"level":100,"evs":{"sa":4,"at":252,"sp":252},"nature":"Naughty","ability":"Teravolt","item":"Haban Berry","moves":["Outrage", "Fusion Bolt", "Flash Cannon", "Ice Beam"]},
 		"1v1 Bulky Weakness Policy": {"level":100,"evs":{"at":28,"hp":212,"df":252,"sd":16},"nature":"Relaxed","ability":"Teravolt","item":"Weakness Policy","moves":["Outrage", "Fusion Bolt", "Ice Beam", "Earth Power"]},
 	},
@@ -85,7 +86,7 @@ var SETDEX_SM = {
 	"Magnezone": {
 		"1v1 Choice Specs": {"level":100,"evs":{"sa":252,"sp":212,"hp":44},"nature":"Modest","ability":"Sturdy","item":"Choice Specs","moves":["Thunderbolt","Flash Cannon","Hidden Power Ice","Hyper Beam"]},
 		"1v1 Electrium Z": {"level":100,"evs":{"sa":252,"sp":136,"hp":120},"nature":"Modest","ability":"Sturdy","item":"Electrium Z","moves":["Thunder","Flash Cannon","Hidden Power Ice","Electroweb"]},
-		"1v1 Electrium Z": {"level":100,"evs":{"sa":252,"sp":144,"hp":112},"nature":"Modest","ability":"Sturdy","item":"Air Balloon","moves":["Thunder","Flash Cannon","Hidden Power Ice","Electroweb"]},
+		"1v1 Air Balloon": {"level":100,"evs":{"sa":252,"sp":144,"hp":112},"nature":"Modest","ability":"Sturdy","item":"Air Balloon","moves":["Thunder","Flash Cannon","Hidden Power Ice","Electroweb"]},
 	},
 	"Meloetta": {
 		"1v1 Choice Specs": {"level":100,"evs":{"sa":252,"sp":8,"hp":248},"nature":"Modest","ability":"Serene Grace","item":"Choice Specs","moves":["Hyper Beam","Psychic","Shadow Ball","Trick"]},
@@ -94,6 +95,7 @@ var SETDEX_SM = {
 		"1v1 Ghostium Z": {"level":100,"evs":{"at":252,"sp":252,"sd":4},"nature":"Jolly","ability":"Disguise","item":"Ghostium Z","moves":["Shadow Claw","Play Rough","Wood Hammer","Shadow Sneak"]},
 		"1v1 Fairium Z": {"level":100,"evs":{"at":252,"sp":252,"sd":4},"nature":"Jolly","ability":"Disguise","item":"Fairium Z","moves":["Shadow Claw","Play Rough","Wood Hammer","Shadow Sneak"]},
 		"1v1 Curse": {"level":100,"evs":{"hp":252,"sp":252,"at":4},"nature":"Jolly","ability":"Disguise","item":"Ghostium Z","moves":["Curse","Substitute","Protect","Shadow Sneak"]},
+		"1v1 Bulky Fairium Z": {"level":100,"evs":{"hp":200,"sp":40,"at":176,"df":92},"nature":"Adamant","ability":"Disguise","item":"Fairium Z","moves":["Play Rough","Substitute","Swords Dance","Shadow Sneak"]},
 	},
 	"Venusaur-Mega": {
 		"1v1 Leech Seed Stall": {"level":100,"evs":{"hp":216,"df":76,"sd":216},"nature":"Bold","ability":"Thick Fat","item":"Venusaurite","moves":["Leech Seed","Synthesis","Giga Drain","Sludge Bomb"]},
@@ -118,6 +120,7 @@ var SETDEX_SM = {
 	"Genesect": {
 		"1v1 Choice Specs": {"level":100,"evs":{"sp":4,"sa":252,"hp":252},"nature":"Modest","ability":"Download","item":"Choice Specs","moves":["Bug Buzz","Flash Cannon","Thunderbolt","Flamethrower"]},
 		"1v1 Choice Scarf": {"level":100,"evs":{"at":4,"sa":252,"hp":252},"nature":"Hasty","ability":"Download","item":"Choice Scarf","moves":["Bug Buzz","Iron Head","Thunderbolt","Flamethrower"]},
+		"1v1 Choice Specs": {"level":100,"evs":{"df":176,"sa":252,"hp":232},"nature":"Modest","ability":"Download","item":"Choice Specs","moves":["Bug Buzz","Flash Cannon","Thunderbolt","Flamethrower"]},
 	},
 	"Kartana": {
 		"1v1 Z Move Attacker": {"level":100,"evs":{"sd":4,"sp":252,"at":252},"nature":"Jolly","ability":"Beast Boost","item":"Grassium Z","moves":["Leaf Blade","Smart Strike","Swords Dance","Substitute"]},
@@ -153,7 +156,7 @@ var SETDEX_SM = {
 		"1v1 Leech Seed Stall": {"level":100,"evs":{"df":252,"at":4,"hp":252},"nature":"Relaxed","ability":"Beast Boost","item":"Leftovers","moves":["Leech Seed","Heavy Slam","Substitute","Protect"]},
 	},
 	"Durant": {
-		"1v1 RNGseus Band": {"level":100,"evs":{"df":28,"at":252,"sp":252},"nature":"Jolly","ability":"Hustle","item":"Choice Band","moves":["Outrage","Earthquake","Fire Fang","Poison Jab"]},
+		"1v1 Choice Band": {"level":100,"evs":{"df":28,"at":252,"sp":252},"nature":"Jolly","ability":"Hustle","item":"Choice Band","moves":["Outrage","Earthquake","Fire Fang","Poison Jab"]},
 	},
 	"Ferrohtorn": {
 		"1v1 Leech Seed Stall": {"level":100,"evs":{"df":116,"sd":144,"hp":248},"nature":"Impish","ability":"Iron Barbs","item":"Leftovers","moves":["Leech Seed","Toxic","Power Whip","Protect"]},
@@ -193,6 +196,26 @@ var SETDEX_SM = {
 		"1v1 Psychium Z": {"level":100,"evs":{"sa":184,"sp":252,"hp":72},"nature":"Timid","ability":"Levitate","item":"Psychium Z","moves":["Draco Meteor","Psychic","Psycho Shift","Hidden Power Fire"]},
 	},
 	"Stunfisk": {
-		"1v1 God Squad Check": {"level":100,"evs":{"sa":184,"sp":252,"hp":72},"nature":"Timid","ability":"Sand Veil","item":"Psychium Z","moves":["Draco Meteor","Psychic","Psycho Shift","Hidden Power Fire"]},
+		"1v1 God Squad Check": {"level":100,"evs":{"sa":252,"sd":4,"hp":252},"nature":"Timid","ability":"Sand Veil","item":"Petaya Berry","moves":["Yawn","Thunder","Earth Power","Endure"]},
+	},
+	"Torterra": {
+		"1v1 Grassium Z": {"level":100,"evs":{"at":144,"df":60,"hp":252,"sp":60},"nature":"Adamant","ability":"Overgrow","item":"Grassium Z","moves":["Wood Hammer","Earthquake","Curse","Rock Tomb"]},
+		"1v1 Groundium Z": {"level":100,"evs":{"at":144,"df":60,"hp":252,"sp":60},"nature":"Adamant","ability":"Overgrow","item":"Grassium Z","moves":["Wood Hammer","Earthquake","Curse","Rock Tomb"]},
+	},
+	"Scolipede": {
+		"1v1 Bugium Z": {"level":100,"evs":{"at":252,"hp":24,"sp":232},"nature":"Adamant","ability":"Speed Boost","item":"Bugium Z","moves":["Megahorn","Poison Jab","Earthquake","Aqua Tail"]},
+		"1v1 Poisonium Z": {"level":100,"evs":{"at":252,"hp":24,"sp":232},"nature":"Adamant","ability":"Speed Boost","item":"Poisonium Z","moves":["Megahorn","Poison Jab","Earthquake","Aqua Tail"]},
+	},
+	"Barbaracle": {
+		"1v1 Shell Smash": {"level":100,"evs":{"at":208,"hp":116,"sp":184},"nature":"Adamant","ability":"Tough Claws","item":"Rockium Z","moves":["Razor Shell","Stone Edge","Superpower","Dual Chop"]},
+	},
+	"Quagsire": {
+		"1v1 Z-Stockpile": {"level":100,"evs":{"sd":240,"hp":252,"df":16},"nature":"Calm","ability":"Unaware","item":"Normalium Z","moves":["Stockpile","Scald","Recover","Toxic"]},
+	},
+	"Deoxys-Defense": {
+		"1v1 Dual Screen": {"level":100,"evs":{"hp":152,"sp":236,"sa":120},"nature":"Timid","ability":"Pressure","item":"Psychium Z","moves":["Reflect","Light Screen","Psychic","Recover"]},
+	},
+	"Araquanid": {
+		"1v1 Assault Vest": {"level":100,"evs":{"hp":252,"at":236,"sd":20},"nature":"Adamant","ability":"Water Bubble","item":"Assault Vest","moves":["Liquidation","Leech Life","Poison Jab","Mirror Coat"]},
 	},
 };
