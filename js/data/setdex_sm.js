@@ -74,6 +74,7 @@ var SETDEX_SM = {
 	"Dragonite": {
 		"1v1 Dragonium Z": {"level":100,"evs":{"at":252,"sp":252,"sd":4},"nature":"Adamant","ability":"Multiscale","item":"Dragonium Z","moves":["Outrage","Extreme Speed","Earthquake","Fire Punch"]},
 		"1v1 Choice Band": {"level":100,"evs":{"at":252,"hp":252,"sp":4},"nature":"Adamant","ability":"Multiscale","item":"Choice Band","moves":["Outrage","Extreme Speed","Earthquake","Fire Punch"]},
+		"1v1 Mixed Dragonium Z": {"level":100,"evs":{"sa":252,"sp":252,"at":4},"nature":"Mild","ability":"Multiscale","item":"Dragonium Z","moves":["Draco Meteor","Extreme Speed","Earthquake","Fire Blast"]},
 		"1v1 Weakness Policy": {"level":100,"evs":{"at":252,"sp":252,"sd":4},"nature":"Adamant","ability":"Multiscale","item":"Choice Band","moves":["Outrage","Extreme Speed","Earthquake","Fire Punch"]},
 	},
 	"Greninja": {
@@ -180,5 +181,18 @@ var SETDEX_SM = {
 	},
 	"Whimsicott": {
 		"1v1 Leech Seed Stall": {"level":100,"evs":{"hp":252,"df":252,"sd":4},"nature":"Bold","ability":"Prankster","item":"Babiri Berry","moves":["Leech Seed","Protect","Substitute","Moonblast"]},
+	},
+	"Keldeo": {
+		"1v1 Waterium Z": {"level":100,"evs":{"hp":252,"df":80,"sd":20,"sa":116,"sp":40},"nature":"Modest","ability":"Justified","item":"Waterium Z","moves":["Hydro Pump","Secret Sword","Icy Wind","Calm Mind"]},
+		"1v1 Fightingium Z": {"level":100,"evs":{"hp":252,"df":80,"sd":20,"sa":116,"sp":40},"nature":"Modest","ability":"Justified","item":"Fightingium Z","moves":["Hydro Pump","Focus Blast","Icy Wind","Hidden Power Rock"]},
+	},
+	"Latios": {
+		"1v1 Psychium Z": {"level":100,"evs":{"sa":252,"sp":252},"nature":"Timid","ability":"Levitate","item":"Psychium Z","moves":["Draco Meteor","Psychic","Psyshock","Hidden Power Fire"]},
+	},
+	"Latias": {
+		"1v1 Psychium Z": {"level":100,"evs":{"sa":184,"sp":252,"hp":72},"nature":"Timid","ability":"Levitate","item":"Psychium Z","moves":["Draco Meteor","Psychic","Psycho Shift","Hidden Power Fire"]},
+	},
+	"Stunfisk": {
+		"1v1 God Squad Check": {"level":100,"evs":{"sa":184,"sp":252,"hp":72},"nature":"Timid","ability":"Sand Veil","item":"Psychium Z","moves":["Draco Meteor","Psychic","Psycho Shift","Hidden Power Fire"]},
 	},
 };
