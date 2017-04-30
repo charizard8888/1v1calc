@@ -29,7 +29,7 @@ var SETDEX_SM = {
 		"1v1 Bulky": {"level":100,"evs":{"hp":104,"at":196,"sd":8,"sp":100,"df":100},"nature":"Adamant","ability":"Mold Breaker","item":"Gyaradosite","moves":["Waterfall","Crunch","Outrage","Earthquake"]},
 	},
 	"Mawile-Mega": {
-		"1v1 Bulky Offense": {"level":100,"evs":{"at":252,"hp":248,"spe":8},"nature":"Adamant","ability":"Huge Power","item":"Mawilite","moves":["Play Rough","Iron Head","Sucker Punch","Fire Fang"]},
+		"1v1 Bulky Offense": {"level":100,"evs":{"at":252,"hp":248,"sp":8},"nature":"Adamant","ability":"Huge Power","item":"Mawilite","moves":["Play Rough","Iron Head","Sucker Punch","Fire Fang"]},
 	},
 	"Porygon-Z": {
 		"1v1 Standard Scarf": {"level":100,"evs":{"sd":4,"sa":252,"sp":252},"nature":"Timid","ability":"Adaptability","item":"Choice Scarf","moves":["Hyper Beam", "Uproar", "Shadow Ball", "Ice Beam"]},
@@ -38,11 +38,11 @@ var SETDEX_SM = {
 		"1v1 Bulky Z-Conversion": {"level":100,"evs":{"df":4,"sa":252,"hp":252},"nature":"Modest","ability":"Adaptability","item":"Normalium Z","moves":["Thunderbolt", "Conversion", "Hyper Beam", "Ice Beam"]},
 	},
 	"Metagross-Mega": {
-		"1v1 Defensive": {"level":100,"evs":{"hp":252,"at":128,"spe":68,"df": 60},"nature":"Impish","ability":"Tough Claws","item":"Metagrossite","moves":["Bullet Punch","Meteor Mash","Thunder Punch","Earthquake"]},
+		"1v1 Defensive": {"level":100,"evs":{"hp":252,"at":128,"sp":68,"df": 60},"nature":"Impish","ability":"Tough Claws","item":"Metagrossite","moves":["Bullet Punch","Meteor Mash","Thunder Punch","Earthquake"]},
 	},
 	"Pinsir-Mega": {
-		"1v1 Hyper Cutter": {"level":100,"evs":{"at":252,"df":40,"spe":252},"nature":"Jolly","ability":"Aerilate","item":"Pinsirite","moves":["Giga Impact","Close Combat","Quick Attack","Earthquake"]},
-		"1v1 Mold Breaker": {"level":100,"evs":{"at":252,"hp":40,"spe":252},"nature":"Jolly","ability":"Aerilate","item":"Pinsirite","moves":["Giga Impact","Close Combat","Quick Attack","Earthquake"]},
+		"1v1 Hyper Cutter": {"level":100,"evs":{"at":252,"df":40,"sp":252},"nature":"Jolly","ability":"Aerilate","item":"Pinsirite","moves":["Giga Impact","Close Combat","Quick Attack","Earthquake"]},
+		"1v1 Mold Breaker": {"level":100,"evs":{"at":252,"hp":40,"sp":252},"nature":"Jolly","ability":"Aerilate","item":"Pinsirite","moves":["Giga Impact","Close Combat","Quick Attack","Earthquake"]},
 	},
 	"Slowbro-Mega": {
 		"1v1 Defense Booster": {"level":100,"evs":{"hp":248,"df":8,"sd":252},"nature":"Calm","ability":"Shell Armor","item":"Slowbronite","moves":["Rest","Scald","Iron Defense","Amnesia"]},
