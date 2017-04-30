@@ -41,8 +41,8 @@ var SETDEX_SM = {
 		"1v1 Defensive": {"level":100,"evs":{"hp":252,"at":128,"sp":68,"df": 60},"nature":"Impish","ability":"Tough Claws","item":"Metagrossite","moves":["Bullet Punch","Meteor Mash","Thunder Punch","Earthquake"]},
 	},
 	"Pinsir-Mega": {
-		"1v1 Hyper Cutter": {"level":100,"evs":{"at":252,"df":40,"sp":252},"nature":"Jolly","ability":"Aerilate","item":"Pinsirite","moves":["Giga Impact","Close Combat","Quick Attack","Earthquake"]},
-		"1v1 Mold Breaker": {"level":100,"evs":{"at":252,"hp":40,"sp":252},"nature":"Jolly","ability":"Aerilate","item":"Pinsirite","moves":["Giga Impact","Close Combat","Quick Attack","Earthquake"]},
+		"1v1 Hyper Cutter": {"level":100,"evs":{"at":252,"df":40,"sp":216},"nature":"Jolly","ability":"Aerilate","item":"Pinsirite","moves":["Giga Impact","Close Combat","Quick Attack","Earthquake"]},
+		"1v1 Mold Breaker": {"level":100,"evs":{"at":252,"hp":40,"sp":216},"nature":"Jolly","ability":"Aerilate","item":"Pinsirite","moves":["Giga Impact","Close Combat","Quick Attack","Earthquake"]},
 	},
 	"Slowbro-Mega": {
 		"1v1 Defense Booster": {"level":100,"evs":{"hp":248,"df":8,"sd":252},"nature":"Calm","ability":"Shell Armor","item":"Slowbronite","moves":["Rest","Scald","Iron Defense","Amnesia"]},
