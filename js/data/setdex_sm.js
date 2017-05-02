@@ -142,8 +142,8 @@ var SETDEX_SM = {
 		"1v1 Substitute Attacker": {"level":100,"evs":{"sa":252,"at":4,"sp":252},"nature":"Hasty","ability":"Sheer Force","item":"Life Orb","moves":["Earth Power","Hidden Power Ice","Rock Slide","Sludge Wave"]},
 	},
 	"Primarina": {
-		"1v1 Choice Specs": {"level":100,"evs":{"sa":252,"sp":4,"sp":252},"nature":"Modest","ability":"Torrent","item":"Choice Specs","moves":["Hydro Cannon","Moonblast","Shadow Ball","Hidden Power Fire"]},
-		"1v1 Waterium Z": {"level":100,"evs":{"sa":252,"sp":4,"sp":252},"nature":"Modest","ability":"Torrent","item":"Waterium Z","moves":["Hydro Cannon","Moonblast","Energy Ball","Aqua Jet"]},
+		"1v1 Choice Specs": {"level":100,"evs":{"sa":252,"sp":4,"hp":252},"nature":"Modest","ability":"Torrent","item":"Choice Specs","moves":["Hydro Cannon","Moonblast","Shadow Ball","Hidden Power Fire"]},
+		"1v1 Waterium Z": {"level":100,"evs":{"sa":252,"sp":4,"hp":252},"nature":"Modest","ability":"Torrent","item":"Waterium Z","moves":["Hydro Cannon","Moonblast","Energy Ball","Aqua Jet"]},
 	},
 	"Tapu Fini": {
 		"1v1 Waterium Z": {"level":100,"evs":{"sa":80,"df":180,"hp":192, "sp":56},"nature":"Bold","ability":"Misty Surge","item":"Waterium Z","moves":["Hydro Pump","Moonblast","Rain Dance","Calm Mind"]},
@@ -217,5 +217,8 @@ var SETDEX_SM = {
 	},
 	"Araquanid": {
 		"1v1 Assault Vest": {"level":100,"evs":{"hp":252,"at":236,"sd":20},"nature":"Adamant","ability":"Water Bubble","item":"Assault Vest","moves":["Liquidation","Leech Life","Poison Jab","Mirror Coat"]},
+	},
+	"Medicham-Mega": {
+		"1v1 All Out Attacker": {"level":100,"evs":{"sd":4,"at":252,"sp":252},"nature":"Jolly","ability":"Huge Power","item":"Medichamite","moves":["Fake Out","High Jump Kick","Zen Headbutt","Thunder Punch"]},
 	},
 };
