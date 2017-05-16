@@ -156,7 +156,7 @@ var SETDEX_SM = {
 		"1v1 Leech Seed Stall": {"level":100,"evs":{"df":252,"at":4,"hp":252},"nature":"Relaxed","ability":"Beast Boost","item":"Leftovers","moves":["Leech Seed","Heavy Slam","Substitute","Protect"]},
 	},
 	"Durant": {
-		"1v1 Choice Band": {"level":100,"evs":{"df":28,"at":252,"sp":252},"nature":"Jolly","ability":"Hustle","item":"Choice Band","moves":["Outrage","Earthquake","Fire Fang","Poison Jab"]},
+		"1v1 Choice Band": {"level":100,"evs":{"df":28,"at":252,"sp":252},"nature":"Jolly","ability":"Hustle","item":"Choice Band","moves":["Iron Head","Stone Edge","X-Scissor","Superpower"]},
 	},
 	"Ferrohtorn": {
 		"1v1 Leech Seed Stall": {"level":100,"evs":{"df":116,"sd":144,"hp":248},"nature":"Impish","ability":"Iron Barbs","item":"Leftovers","moves":["Leech Seed","Toxic","Power Whip","Protect"]},
