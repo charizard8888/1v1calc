@@ -222,6 +222,6 @@ var SETDEX_SM = {
 		"1v1 All Out Attacker": {"level":100,"evs":{"sd":4,"at":252,"sp":252},"nature":"Jolly","ability":"Huge Power","item":"Medichamite","moves":["Fake Out","High Jump Kick","Zen Headbutt","Thunder Punch"]},
 	},
 	"Volcarona": {
-		"1v1 UOP Swarm Buginium-Z": {"level":100,"evs":{"sd":4,"sa":252,"sp":252},"nature":"Timid","ability","Swarm","item":"Buginium Z","moves":["Substitute","Quiver Dance","Bug Buzz","Overheat"]},
+		"1v1 UOP Swarm Buginium-Z": {"level":100,"evs":{"sd":4,"sa":252,"sp":252},"nature":"Timid","ability":"Swarm","item":"Buginium Z","moves":["Substitute","Quiver Dance","Bug Buzz","Overheat"]},
 	},
 };
