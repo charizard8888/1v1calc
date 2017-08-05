@@ -9,6 +9,5 @@ var SETDEX_XY = {
 	},
 	"Charizard-Mega-Y": {
 		"1v1 Sun Attacker": {"level":100,"evs":{"sd":4,"sa":252,"sp":252},"nature":"Timid","ability":"Drought","item":"Charizardite Y","moves":["Air Slash","Blast Burn","Solar Beam","Ancient Power"]},
-		"1v1 Bulky Special Attacker": {"level":100,"evs":{"sp":216,"sa":64,"df":156, "hp":72,},"nature":"Modest","ability":"Drought","item":"Charizardite Y","moves":["Air Slash","Blast Burn","Solar Beam","Ancient Power"]},
 	},
   };
