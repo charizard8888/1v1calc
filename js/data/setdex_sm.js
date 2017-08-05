@@ -224,4 +224,7 @@ var SETDEX_SM = {
 	"Volcarona": {
 		"1v1 UOP Swarm Buginium-Z": {"level":100,"evs":{"sd":4,"sa":252,"sp":252},"nature":"Timid","ability":"Swarm","item":"Buginium Z","moves":["Substitute","Quiver Dance","Bug Buzz","Overheat"]},
 	},
+	"Marshadow": {
+		"1v1 Elo Bandit Shadow": {"level":100,"evs":{"df":188,"at":68,"sp":252},"nature":"Jolly","ability":"Technician","item":"Marshadium Z","moves":["Soul Stealing Seven Star Strike","Spectral Thief","Close Combat","Rock Tomb"]},
+	},
 };
