@@ -57,7 +57,8 @@ var SETDEX_SM = {
 	"Tapu Koko": {
 		"1v1 Physical Electrium Z": {"level":100,"evs":{"sd":4,"at":252,"sp":252},"nature":"Jolly","ability":"Electric Surge","item":"Electrium Z","moves":["Wild Charge","Taunt","Substitute","Charge"]},
 		"1v1 Special Electrium Z": {"level":100,"evs":{"df":4,"sa":252,"sp":252},"nature":"Timid","ability":"Electric Surge","item":"Electrium Z","moves":["Thunder","Taunt","Substitute","Charge"]},
-		"1v1 Flyingium Z": {"level":100,"evs":{"df":4,"at":252,"sp":252},"nature":"Timid","ability":"Electric Surge","item":"Flyingium Z","moves":["Substitute","Mirror Move","Brave Bird","Wild Charge"]},
+		"1v1 Flyinium Z": {"level":100,"evs":{"df":4,"at":252,"sp":252},"nature":"Timid","ability":"Electric Surge","item":"Flyingium Z","moves":["Substitute","Mirror Move","Brave Bird","Wild Charge"]},
+		"1v1 UOP Physical Electrium Z": {"level":100,"evs":{"hp":216,"at":252,"sp":16,"df":24},"nature":"Jolly","ability":"Electric Surge","item":"Electrium Z","moves":["Wild Charge","Taunt","Reflect","Charge"]},
 	},
 	"Tapu Lele": {
 		"1v1 Psychium Z": {"level":100,"evs":{"hp":200,"sa":252,"df":56},"nature":"Modest","ability":"Psychic Surge","item":"Psychium Z","moves":["Psychic","Reflect","Moonblast","Calm Mind"]},
@@ -226,5 +227,14 @@ var SETDEX_SM = {
 	},
 	"Marshadow": {
 		"1v1 Elo Bandit Shadow": {"level":100,"evs":{"df":188,"at":68,"sp":252},"nature":"Jolly","ability":"Technician","item":"Marshadium Z","moves":["Soul-Stealing 7-Star Strike","Spectral Thief","Close Combat","Rock Tomb"]},
+	},
+	"Archeops": {
+		"1v1 Choice Band": {"level":100,"evs":{"sp":252,"sd":4,"at":252},"nature":"Jolly","ability":"Defeatist","item":"Choice Band","moves":["Head Smash","Earthquake","Outrage","Switcheroo"]},
+	},
+	"Avalugg": {
+		"1v1 Ground Z": {"level":100,"evs":{"hp":248,"at":96,"df":164},"nature":"Lax","ability":"Sturdy","item":"Groundium Z","moves":["Avalanche","Mirror Coat","Earthquake","Curse"]},
+	},
+	"Cinccino": {
+		"1v1 Choice Band": {"level":100,"evs":{"sp":252,"sd":4,"at":252},"nature":"Jolly","ability":"Skill Link","item":"Choice Band","moves":["Tail Slap","Rock Blast","Bullet Seed","Gunk Shot"]},
 	},
 };
