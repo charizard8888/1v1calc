@@ -121,7 +121,7 @@ var SETDEX_SM = {
 	"Genesect": {
 		"1v1 Choice Specs": {"level":100,"evs":{"sp":4,"sa":252,"hp":252},"nature":"Modest","ability":"Download","item":"Choice Specs","moves":["Bug Buzz","Flash Cannon","Thunderbolt","Flamethrower"]},
 		"1v1 Choice Scarf": {"level":100,"evs":{"at":4,"sa":252,"hp":252},"nature":"Hasty","ability":"Download","item":"Choice Scarf","moves":["Bug Buzz","Iron Head","Thunderbolt","Flamethrower"]},
-		"1v1 Choice Specs": {"level":100,"evs":{"df":176,"sa":252,"hp":232},"nature":"Modest","ability":"Download","item":"Choice Specs","moves":["Bug Buzz","Flash Cannon","Thunderbolt","Flamethrower"]},
+		"1v1 Bulky Specs": {"level":100,"evs":{"df":176,"sa":252,"hp":232},"nature":"Modest","ability":"Download","item":"Choice Specs","moves":["Bug Buzz","Flash Cannon","Thunderbolt","Flamethrower"]},
 	},
 	"Kartana": {
 		"1v1 Z Move Attacker": {"level":100,"evs":{"sd":4,"sp":252,"at":252},"nature":"Jolly","ability":"Beast Boost","item":"Grassium Z","moves":["Leaf Blade","Smart Strike","Swords Dance","Substitute"]},
