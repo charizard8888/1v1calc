@@ -64,11 +64,6 @@ var SETDEX_SM = {
 		"1v1 Psychium Z": {"level":100,"evs":{"hp":200,"sa":252,"df":56},"nature":"Modest","ability":"Psychic Surge","item":"Psychium Z","moves":["Psychic","Reflect","Moonblast","Calm Mind"]},
 		"1v1 Choice Scarf": {"level":100,"evs":{"sp":252,"sa":252,"sd":56},"nature":"Timid","ability":"Psychic Surge","item":"Choice Scarf","moves":["Psychic","Thunderbolt","Moonblast","Shadow Ball"]},
 	},
-	"Deoxys-Defense": {
-		"1v1 Under Pressure": {"level":100,"evs":{"hp":248,"sp":252,"df": 8},"nature":"Timid","ability":"Pressure","item":"Sitrus Berry","moves":["Taunt","Iron Defense","Amnesia","Recover"]},
-		"1v1 Z-Cosmic Power": {"level":100,"evs":{"hp":248,"df":252,"sd": 8},"nature":"Bold","ability":"Pressure","item":"Psychium Z","moves":["Cosmic Power","Mud Slap","Tant","Recover"]},
-		"1v1 CounterCoat": {"level":100,"evs":{"hp":252,"sd":252,"df": 4},"nature":"Calm","ability":"Pressure","item":"Leftovers","moves":["Counter","Mirror Coat","Tant","Recover"]},
-	},
 	"Donphan": {
 		"1v1 Rockium Z": {"level":100,"evs":{"at":252,"hp":252,"sp":4},"nature":"Adamant","ability":"Sturdy","item":"Rockium Z","moves":["Earthquake","Head Smash","Ice Shard","Counter"]},
 		"1v1 Groundium Z": {"level":100,"evs":{"at":252,"sp":252,"hp":4},"nature":"Adamant","ability":"Sturdy","item":"Groundium Z","moves":["Earthquake","Head Smash","Ice Shard","Counter"]},
@@ -224,9 +219,6 @@ var SETDEX_SM = {
 	},
 	"Volcarona": {
 		"1v1 UOP Swarm Buginium-Z": {"level":100,"evs":{"sd":4,"sa":252,"sp":252},"nature":"Timid","ability":"Swarm","item":"Buginium Z","moves":["Substitute","Quiver Dance","Bug Buzz","Overheat"]},
-	},
-	"Marshadow": {
-		"1v1 Elo Bandit Shadow": {"level":100,"evs":{"df":188,"at":68,"sp":252},"nature":"Jolly","ability":"Technician","item":"Marshadium Z","moves":["Soul-Stealing 7-Star Strike","Spectral Thief","Close Combat","Rock Tomb"]},
 	},
 	"Archeops": {
 		"1v1 Choice Band": {"level":100,"evs":{"sp":252,"sd":4,"at":252},"nature":"Jolly","ability":"Defeatist","item":"Choice Band","moves":["Head Smash","Earthquake","Outrage","Switcheroo"]},
