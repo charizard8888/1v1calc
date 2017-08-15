@@ -1,7 +1,7 @@
 var SETDEX_XY = {
 	"Charizard": {
-		"1v1 Pre-Mega Off Zard X": {"level":100,"evs":{"sd":4,"at":252,"sp":252},"nature":"Jolly","ability":"Tough Claws","item":"Charizardite X","moves":["Dragon Dance","Outrage","Flare Blitz","Earthquake"]},
-		"1v1 Pre-Mega Defensive Zard X": {"level":100,"evs":{"sp":8,"hp":248,"df":252},"nature":"Impish","ability":"Tough Claws","item":"Charizardite X","moves":["Outrage","Flare Blitz","Will-O-Wisp","Counter"]},
+		"1v1 Pre-Mega Off Zard X": {"level":100,"evs":{"sd":4,"at":252,"sp":252},"nature":"Jolly","ability":"Blaze","item":"Charizardite X","moves":["Dragon Dance","Outrage","Flare Blitz","Earthquake"]},
+		"1v1 Pre-Mega Defensive Zard X": {"level":100,"evs":{"sp":8,"hp":248,"df":252},"nature":"Impish","ability":"Blaze","item":"Charizardite X","moves":["Outrage","Flare Blitz","Will-O-Wisp","Counter"]},
 	},
 	"Charizard-Mega-X": {
 		"1v1 Offensive": {"level":100,"evs":{"sd":4,"at":252,"sp":252},"nature":"Jolly","ability":"Tough Claws","item":"Charizardite X","moves":["Dragon Dance","Outrage","Flare Blitz","Earthquake"]},
