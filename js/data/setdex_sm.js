@@ -799,7 +799,7 @@ var SETDEX_SM = {
 		"Siren":{"level":100,"evs":{"hp":252,"df":20,"sa":72,"sd":164},"nature":"Modest","ability":"Torre","item":"Choice Spe","moves":['Moonblast', 'Hydro Cannon', 'Sparkling Aria', 'Hidden Power [Fire]']}
 	},
 	"Probopass":{
-		"1v1 nameless":{"level":2,"evs":},"nature":"Hardy","ability":"Sturdy","item":"Berry Juice","moves":['', '', '', '']}
+		"1v1 nameless":{"level":2,"nature":"Hardy","ability":"Sturdy","item":"Berry Juice","moves":['', '', '', '']}
 	},
 	"Pyroar":{
 		"1v1 nameless":{"level":100,"evs":{"sa":252,"sd":4,"sp":252},"nature":"Timid","ability":"Rivalry","item":"Choice Specs","moves":['Hyper Beam  ', 'Overheat  ', 'Hyper Voice  ', 'Hidden Power [Ice]']}
