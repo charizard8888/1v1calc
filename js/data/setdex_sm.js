@@ -382,7 +382,7 @@ var SETDEX_SM = {
 		"1v1 nameless":{"level":100,"evs":{"hp":204,"at":52,"sd":252},"nature":"Brave","ability":"Iron Fist","item":"Assault Vest","moves":['Drain Punch  ', 'Mach Punch  ', 'Rock Slide  ', 'Earthquake']}
 	},
 	"Cottonee":{
-		"1v1 nameless":{"level":1,"evs":},"nature":"Hardy","ability":"Prankster","item":"BrightPowder","moves":['', '', '', '']}
+		"1v1 nameless":{"level":1,"nature":"Hardy","ability":"Prankster","item":"BrightPowder","moves":['', '', '', '']}
 	},
 	"Crustle":{
 		"1v1 nameless":{"level":100,"evs":{"at":252,"sd":4,"sp":252},"nature":"Jolly","ability":"Sturdy","item":"Rockium Z","moves":['Earthquake  ', 'Rock Wrecker  ', 'X-Scissor  ', 'Shell Smash']}
@@ -760,7 +760,7 @@ var SETDEX_SM = {
 		"1v1 nameless":{"level":100,"evs":{"sa":252,"sd":4,"sp":252},"nature":"Timid","ability":"Infiltrator","item":"Choice Specs","moves":['Boomburst  ', 'Draco Meteor  ', 'Hurricane  ', 'Flamethrower']}
 	},
 	"Nosepass":{
-		"1v1 nameless":{"level":1,"evs":},"nature":"Hardy","ability":"Sturdy","item":"Berry Juice","moves":['', '', '', '']}
+		"1v1 nameless":{"level":1,"nature":"Hardy","ability":"Sturdy","item":"Berry Juice","moves":['', '', '', '']}
 	},
 	"Onix":{
 		"1v1 nameless":{"level":100,"evs":{"at":252,"df":80,"sp":176},"nature":"Adamant","ability":"Stur","item":"Groundium","moves":['Rock Tomb', 'Earthquake', 'Rock Slide', 'Toxic']},
