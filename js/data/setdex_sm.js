@@ -229,7 +229,7 @@ var SETDEX_SM = {
 	"Cinccino": {
 		"1v1 Choice Band": {"level":100,"evs":{"sp":252,"sd":4,"at":252},"nature":"Jolly","ability":"Skill Link","item":"Choice Band","moves":["Tail Slap","Rock Blast","Bullet Seed","Gunk Shot"]},
 	},
-		"Abomasnow-Mega":{
+	"Abomasnow-Mega":{
 		"Dank Tank":{"level":100,"evs":{"hp":248,"df":12,"sa":248},"nature":"Quiet","ability":"Snow Warni","item":"Abomasi","moves":['Ice Shard', 'Blizzard', 'Energy Ball', 'Earthquake']}
 	},
 	"Aegislash":{
@@ -317,9 +317,6 @@ var SETDEX_SM = {
 	"Buzzwole":{
 		"1v1 nameless":{"level":100,"evs":{"hp":240,"at":236,"df":32},"nature":"Adamant","ability":"Beast Boost","item":"Choice Band","moves":['Hammer Arm  ', 'Leech Life  ', 'Stone Edge  ', 'Earthquake']},
 		"Buge":{"level":100,"evs":{"hp":148,"at":252,"sp":108},"nature":"Adamant","ability":"Beast Boo","item":"Choice Ba","moves":['Superpower', 'Leech Life', 'Ice Punch', 'Earthquake']}
-	},
-	"Call this 1v1 Partys Bulk":{
-		"":{"level":100,"evs":{"hp":252,"df":168,"sd":52,"sp":36},"nature":"Impish","ability":"Gu","item":"","moves":['Close Combat', 'Pin Missile', 'Rock Blast', 'Rock Tomb(edited)']}
 	},
 	"Camerupt-Mega":{
 		"1v1 nameless":{"level":100,"evs":{"hp":248,"sa":252,"sd":8},"nature":"Modest","ability":"Sheer Force","item":"Cameruptite","moves":['Earth Power  ', 'Fire Blast  ', 'Ancient Power  ', 'Flash Cannon']},
@@ -536,6 +533,7 @@ var SETDEX_SM = {
 		"1v1 nameless":{"level":100,"evs":{"hp":248,"at":8,"df":252},"nature":"Adamant","ability":"Skill Link","item":"Heracronite","moves":['Bullet Seed  ', 'Close Combat  ', 'Rock Blast  ', 'Earthquake']},
 		"1v1 nameless":{"level":100,"evs":{"hp":236,"at":140,"df":52,"sp":80},"nature":"Adamant","ability":"Gu","item":"Heracroni","moves":['Low Kick', 'Arm Thrust', 'Pin Missile', 'Rock Blast']},
 		"1v1 nameless":{"level":100,"evs":{"hp":252,"df":168,"sd":52,"sp":36},"nature":"Impish","ability":"Gu","item":"Heracroni","moves":['Close Combat', 'Pin Missile', 'Rock Blast', 'Rock Tomb']}
+		"Call this 1v1 Partys Bulk":{"level":100,"evs":{"hp":252,"df":168,"sd":52,"sp":36},"nature":"Impish","ability":"Gu","item":"","moves":['Close Combat', 'Pin Missile', 'Rock Blast', 'Rock Tomb']}
 	},
 	"Hoopa-Unbound":{
 		"1v1 nameless":{"level":100,"evs":{"hp":252,"df":168,"sa":32,"sd":56},"nature":"Modest","ability":"Magician","item":"Psychium Z","moves":['Psychic  ', 'Taunt  ', 'Calm Mind  ', 'Dark Pulse  ']},
@@ -1117,5 +1115,4 @@ var SETDEX_SM = {
 	"Zygarde-10%":{
 		"1v1 nameless":{"level":100,"evs":{"at":252,"sd":4,"sp":252},"nature":"Jolly","ability":"Aura Break","item":"Choice Band","moves":['Thousand Arrows  ', 'Outrage  ', 'Superpower  ', 'Stone Edge  ']}
 	},
-
 };
