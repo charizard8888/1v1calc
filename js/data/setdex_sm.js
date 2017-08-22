@@ -5,8 +5,6 @@ var SETDEX_SM = {
 	},
 	"Charizard-Mega-X": {
 		"1v1 Offensive": {"level":100,"evs":{"sd":4,"at":252,"sp":252},"nature":"Jolly","ability":"Tough Claws","item":"Charizardite X","moves":["Dragon Dance","Outrage","Flare Blitz","Earthquake"]},
-	},
-	"Charizard-Mega-X": {
 		"1v1 Defensive": {"level":100,"evs":{"sp":8,"hp":248,"df":252},"nature":"Impish","ability":"Tough Claws","item":"Charizardite X","moves":["Outrage","Flare Blitz","Will-O-Wisp","Counter"]},
 	},
 	"Charizard-Mega-Y": {
