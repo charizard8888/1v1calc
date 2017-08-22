@@ -1021,7 +1021,7 @@ var SETDEX_SM = {
 		"1v1 nameless":{"level":100,"evs":{"sa":252,"sd":4,"sp":252},"nature":"Timid","ability":"Serene Grace","item":"Choice Scarf","moves":['Air Slash  ', 'Trick  ', 'Flamethrower  ', 'Dazzling Gleam']},
 		"1v1 nameless":{"level":100,"evs":{"hp":140,"sa":144,"sp":224},"nature":"Modest","ability":"Serene Grace","item":"Normalium Z","moves":['Yawn  ', 'Endure  ', 'Air Slash  ', 'Nasty Plot']},
 		"1v1 nameless":{"level":100,"evs":{"hp":252,"df":80,"sa":4,"sp":172},"nature":"Modest","ability":"Serene Grace","item":"Leftovers","moves":['Air Slash  ', 'Roost  ', 'Thunder Wave  ', 'Flamethrower']},
-		""Hax"":{"level":100,"evs":{"hp":252,"df":240,"sd":8,"sp":8},"nature":"Bold","ability":"Serene Gra","item":"Fairium","moves":['Thunder Wave', 'Air Slash', 'Roost', 'Charm']}
+		"Hax":{"level":100,"evs":{"hp":252,"df":240,"sd":8,"sp":8},"nature":"Bold","ability":"Serene Gra","item":"Fairium","moves":['Thunder Wave', 'Air Slash', 'Roost', 'Charm']}
 	},
 	"Torkoal":{
 		"1v1 nameless":{"level":100,"evs":{"hp":252,"sa":252,"sd":4},"nature":"Modest","ability":"Drought","item":"Firium Z","moves":['Overheat  ', 'Yawn  ', 'Protect  ', 'Earth Power']}
