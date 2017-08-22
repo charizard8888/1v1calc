@@ -532,7 +532,7 @@ var SETDEX_SM = {
 	"Heracross-Mega":{
 		"1v1 nameless":{"level":100,"evs":{"hp":248,"at":8,"df":252},"nature":"Adamant","ability":"Skill Link","item":"Heracronite","moves":['Bullet Seed  ', 'Close Combat  ', 'Rock Blast  ', 'Earthquake']},
 		"1v1 nameless":{"level":100,"evs":{"hp":236,"at":140,"df":52,"sp":80},"nature":"Adamant","ability":"Gu","item":"Heracroni","moves":['Low Kick', 'Arm Thrust', 'Pin Missile', 'Rock Blast']},
-		"1v1 nameless":{"level":100,"evs":{"hp":252,"df":168,"sd":52,"sp":36},"nature":"Impish","ability":"Gu","item":"Heracroni","moves":['Close Combat', 'Pin Missile', 'Rock Blast', 'Rock Tomb']}
+		"1v1 nameless":{"level":100,"evs":{"hp":252,"df":168,"sd":52,"sp":36},"nature":"Impish","ability":"Gu","item":"Heracroni","moves":['Close Combat', 'Pin Missile', 'Rock Blast', 'Rock Tomb']},
 		"Call this 1v1 Partys Bulk":{"level":100,"evs":{"hp":252,"df":168,"sd":52,"sp":36},"nature":"Impish","ability":"Gu","item":"","moves":['Close Combat', 'Pin Missile', 'Rock Blast', 'Rock Tomb']}
 	},
 	"Hoopa-Unbound":{
