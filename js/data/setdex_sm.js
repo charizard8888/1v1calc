@@ -409,8 +409,8 @@ var SETDEX_SM = {
 		"Edgy":{"level":100,"evs":{"hp":252,"at":152,"sa":24,"sd":80},"nature":"Brave","ability":"Multisca","item":"Flyinium","moves":['Hurricane', 'Extreme Speed', 'Earthquake', 'Outrage']}
 	},
 	"Durant":{
-		"1v1 Choice Band":{"level":100,"evs":{"at":224,"df":28,"sp":252},"nature":"Jolly","ability":"Hustle","item":"Choice Band","moves":['Iron Head  ', 'X-Scissor  ', 'Stone Edge  ', 'Superpower']},
-		"1v1 Truant Stall":{"level":100,"evs":{"hp":248,"at":8,"df":252},"nature":"Impish","ability":"Truant","item":"Leftovers","moves":['Entrainment  ', 'Toxic  ', 'Iron Defense  ', 'Protect']}
+		"1v1 Choice Band":{"level":100,"evs":{"at":224,"df":28,"sp":252},"nature":"Jolly","ability":"Hustle","item":"Choice Band","moves":['Iron Head', 'X-Scissor', 'Stone Edge', 'Superpower']},
+		"1v1 Truant Stall":{"level":100,"evs":{"hp":248,"at":8,"df":252},"nature":"Impish","ability":"Truant","item":"Leftovers","moves":['Entrainment', 'Toxic', 'Iron Defense', 'Protect']}
 	},
 	"Dusclops":{
 		"1v1 nameless":{"level":100,"evs":{"hp":252,"df":4,"sd":252},"nature":"Calm","ability":"Pressure","item":"Eviolite","moves":['Spite  ', 'Rest  ', 'Will-O-Wisp  ', 'Taunt']},
