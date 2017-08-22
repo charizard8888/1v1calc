@@ -644,9 +644,6 @@ var SETDEX_SM = {
 		"Ball":{"level":100,"evs":{"hp":108,"sa":176,"sp":224},"nature":"Modest","ability":"Soul-Hea","item":"Choice Spe","moves":['Fleur Cannon', 'Flash Cannon', 'Thunderbolt', 'Hyper Beam']},
 		"1v1 nameless":{"level":100,"evs":{"hp":248,"sa":216,"sd":44},"nature":"Modest","ability":"Soul-Hea","item":"Choice Spe","moves":['Fleur Cannon', 'Flash Cannon', 'Thunderbolt', 'Hidden Power [Fire]']}
 	},
-	"Magnemite":{
-		"1v1 nameless":{"level":100,"evs":},"nature":"Hardy","ability":"Sturdy","item":"Berry Juice","moves":['', '', '', '']}
-	},
 	"Magneton":{
 		"1v1 nameless":{"level":100,"evs":{"sa":252,"sd":4,"sp":252},"nature":"Modest","ability":"Sturdy","item":"Choice Specs","moves":['Thunderbolt  ', 'Hidden Power [Ice]  ', 'Flash Cannon  ', 'Electroweb  ']},
 		"1v1 nameless":{"level":100,"evs":{"sa":252,"sd":4,"sp":252},"nature":"Modest","ability":"Sturdy","item":"Electrium Z","moves":['Electroweb  ', 'Zap Cannon  ', 'Hidden Power [Ice]  ', 'Metal Sound  ']},
