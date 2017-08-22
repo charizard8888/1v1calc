@@ -262,7 +262,7 @@ var SETDEX_SM = {
 		"1v1 nameless":{"level":100,"evs":{"at":252,"sd":4,"sp":252},"nature":"Jolly","ability":"Defeatist","item":"Choice Band","moves":['Head Smash  ', 'Earthquake  ', 'Switcheroo  ', 'Outrage ']}
 	},
 	"Aron":{
-		"1v1 nameless":{"level":1,"evs":},"nature":"Bashful","ability":"Sturdy","item":"Shell Bell","moves":['Endeavor  ', 'Toxic  ', 'Metal Burst  ', 'Aerial Ace']}
+		"1v1 nameless":{"level":1,"nature":"Bashful","ability":"Sturdy","item":"Shell Bell","moves":['Endeavor  ', 'Toxic  ', 'Metal Burst  ', 'Aerial Ace']}
 	},
 	"Articuno":{
 		"1v1 nameless":{"level":100,"evs":{"hp":164,"df":252,"sa":32,"sp":60},"nature":"Bold","ability":"Pressu","item":"Flyinium","moves":['Freeze-Dry', 'Hurricane', 'Icy Wind', 'Rest']},
