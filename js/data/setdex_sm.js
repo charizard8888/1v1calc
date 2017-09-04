@@ -7,10 +7,27 @@ var SETDEX_SM = {
 		"1v1 Offensive": {"level":100,"evs":{"sd":4,"at":252,"sp":252},"nature":"Jolly","ability":"Tough Claws","item":"Charizardite X","moves":["Dragon Dance","Outrage","Flare Blitz","Earthquake"]},
 		"1v1 Defensive": {"level":100,"evs":{"sp":8,"hp":248,"df":252},"nature":"Impish","ability":"Tough Claws","item":"Charizardite X","moves":["Outrage","Flare Blitz","Will-O-Wisp","Counter"]},
 	},
+	/* "Charizard-Mega-X":{
+		"1v1 nameless":{"level":100,"evs":{"at":252,"sd":4,"sp":252},"nature":"Jolly","ability":"Tough Claws","item":"Charizardite X","moves":['Will-O-Wisp', 'Flare Blitz  ', 'Outrage  ', 'Dragon Dance']},
+		"1v1 nameless":{"level":100,"evs":{"hp":252,"at":4,"df":252},"nature":"Impish","ability":"Tough Claws","item":"Charizardite X","moves":['Outrage  ', 'Flare Blitz  ', 'Dragon Dance  ', 'Counter ']},
+		"1v1 nameless":{"level":100,"evs":{"hp":12,"at":240,"df":40,"sp":216},"nature":"Jolly","ability":"Bla","item":"Charizardite","moves":['Belly Drum', 'Flare Blitz', 'Outrage', 'Flame Charge']},
+		"1v1 nameless":{"level":100,"evs":{"hp":128,"at":24,"df":104,"sp":252},"nature":"Jolly","ability":"Tough Cla","item":"Charizardite","moves":['Dragon Dance', 'Outrage', 'Flare Blitz', 'Substitute']},
+		"'Zard":{"level":100,"evs":{"at":252,"sd":4,"sp":252},"nature":"Adamant","ability":"Bla","item":"Charizardite","moves":['Dragon Dance', 'Belly Drum', 'Flare Blitz', 'Outrage']},
+		"'Zard":{"level":100,"evs":{"hp":20,"at":172,"df":76,"sp":240},"nature":"Adamant","ability":"Bla","item":"Charizardite","moves":['Dragon Dance', 'Outrage', 'Flare Blitz', 'Substitute']},
+		"'Zard":{"level":100,"evs":{"hp":12,"at":240,"df":40,"sp":216},"nature":"Jolly","ability":"Bla","item":"Charizardite","moves":['Belly Drum', 'Outrage', 'Flare Blitz', 'Flame Charge']}
+	},
+	"Charizard-Mega-X ":{
+		"Chuck":{"level":100,"evs":{"at":244,"df":40,"sp":224},"nature":"Jolly","ability":"Bla","item":"Charizardite","moves":['Flare Blitz', 'Outrage', 'Belly Drum', 'Fire Punch']}
+	}, */
 	"Charizard-Mega-Y": {
 		"1v1 Sun Attacker": {"level":100,"evs":{"sd":4,"sa":252,"sp":252},"nature":"Timid","ability":"Drought","item":"Charizardite Y","moves":["Air Slash","Blast Burn","Solar Beam","Ancient Power"]},
 		"1v1 Bulky Special Attacker": {"level":100,"evs":{"sp":216,"sa":64,"df":156, "hp":72,},"nature":"Modest","ability":"Drought","item":"Charizardite Y","moves":["Air Slash","Blast Burn","Solar Beam","Ancient Power"]},
 	},
+	/* "Charizard-Mega-Y":{
+		"1v1 nameless":{"level":100,"evs":{"hp":224,"df":228,"sa":56},"nature":"Calm","ability":"Drought","item":"Charizardite Y","moves":['Blast Burn  ', 'Air Slash  ', 'Solar Beam  ', 'Rock Tomb ']},
+		"1v1 nameless":{"level":100,"evs":{"sa":252,"sd":4,"sp":252},"nature":"Timid","ability":"Droug","item":"Charizardite","moves":['Solar Beam', 'Blast Burn', 'Air Slash', 'Hidden Power [Electric]']},
+		"1v1 nameless":{"level":100,"evs":{"df":232,"sa":60,"sp":216},"nature":"Modest","ability":"Droug","item":"Charizardite","moves":['Hidden Power [Electric]', 'Solar Beam', 'Blast Burn', 'Flamethrower']}
+	}, */
 	"Kyurem-Black": {
 		"1v1 Choice Scarf": {"level":100,"evs":{"sa":4,"at":252,"sp":252},"nature":"Naive","ability":"Teravolt","item":"Choice Scarf","moves":["Outrage", "Fusion Bolt", "Earth Power", "Ice Beam"]},
 		"1v1 Choice Specs": {"level":100,"evs":{"sd":4,"sa":252,"sp":252},"nature":"Timid","ability":"Teravolt","item":"Choice Specs","moves":["Draco Meteor", "Ice Beam", "Earth Power", "Flash Cannon"]},
@@ -79,6 +96,12 @@ var SETDEX_SM = {
 		"1v1 Waterium Z": {"level":100,"evs":{"sa":252,"sp":252,"sd":4},"nature":"Timid","ability":"Protean","item":"Waterium Z","moves":["Hydro Cannon","Grass Knot","Dark Pulse","Water Shuriken"]},
 		"1v1 Mixed Life Orb": {"level":100,"evs":{"sa":252,"sp":252,"at":4},"nature":"Hasty","ability":"Protean","item":"Life Orb","moves":["Hydro Pump","Shadow Sneak","Gunk Shot","Dark Pulse"]},
 	},
+	/* "Greninja":{
+		"1v1 nameless":{"level":100,"evs":{"sa":252,"sd":4,"sp":252},"nature":"Timid","ability":"Protean","item":"Choice Specs","moves":['Ice Beam  ', 'Hydro Cannon  ', 'Dark Pulse  ', 'Hidden Power [Fire]  ']},
+		"1v1 nameless":{"level":100,"evs":{"sa":252,"sd":4,"sp":252},"nature":"Timid","ability":"Torrent","item":"Waterium Z","moves":['Hydro Cannon  ', 'Substitute  ', 'Taunt  ', 'Dark Pulse  ']},
+		"1v1 nameless":{"level":100,"evs":{"sa":252,"sd":4,"sp":252},"nature":"Timid","ability":"Protean","item":"Waterium Z","moves":['Hydro Cannon  ', 'Water Shuriken  ', 'Dark Pulse  ', 'Grass Knot  ']},
+		"1v1 nameless":{"level":100,"evs":{"at":4,"sa":252,"sp":252},"nature":"Hasty","ability":"Protean","item":"Life Orb","moves":['Shadow Sneak  ', 'Gunk Shot  ', 'Hydro Pump  ', 'Dark Pulse  ']}
+	}, */
 	"Magnezone": {
 		"1v1 Choice Specs": {"level":100,"evs":{"sa":252,"sp":212,"hp":44},"nature":"Modest","ability":"Sturdy","item":"Choice Specs","moves":["Thunderbolt","Flash Cannon","Hidden Power Ice","Hyper Beam"]},
 		"1v1 Electrium Z": {"level":100,"evs":{"sa":252,"sp":136,"hp":120},"nature":"Modest","ability":"Sturdy","item":"Electrium Z","moves":["Thunder","Flash Cannon","Hidden Power Ice","Electroweb"]},
@@ -108,6 +131,14 @@ var SETDEX_SM = {
 	"Chansey": {
 		"1v1 Charm Wall": {"level":100,"evs":{"df":252,"sd":8,"hp":248},"nature":"Bold","ability":"Serene Grace","item":"Eviolite","moves":["Charm","Seismic Toss","Counter","Toxic"]},
 	},
+	/* "Chansey":{
+		"1v1 nameless":{"level":100,"evs":{"hp":248,"df":252,"sp":8},"nature":"Bold","ability":"Heal","item":"Eviolite","moves":['Reflect', 'Psywave ', 'Soft-Boiled', 'Toxic']},
+		"Martha":{"level":100,"evs":{"hp":252,"df":252,"sd":4},"nature":"Bold","ability":"Natural Cure","item":"Eviolite","moves":['Soft-Boiled', 'Seismic Toss', 'Counter', 'Toxic']},
+		"No":{"level":100,"evs":{"hp":252,"df":252,"sd":4},"nature":"Bold","ability":"Serene Grace","item":"Eviolite","moves":['Soft-Boiled', 'Toxic', 'Charm', 'Ice Beam']}
+	},
+	"Chansey ":{
+		"1v1 nameless":{"level":100,"evs":{"hp":248,"df":252,"sd":8},"nature":"Bold","ability":"Serene Grace","item":"Eviolite","moves":['Charm  ', 'Counter', 'Soft-Boiled  ', 'Toxic']}
+	}, */
 	"Garchomp": {
 		"1v1 Choice Band": {"level":100,"evs":{"sd":4,"at":252,"sp":252},"nature":"Jolly","ability":"Rough Skin","item":"Choice Band","moves":["Outrage","Earthquake","Fire Fang","Poison Jab"]},
 		"1v1 Choice Scarf": {"level":100,"evs":{"sd":4,"at":252,"sp":252},"nature":"Jolly","ability":"Rough Skin","item":"Choice Scarf","moves":["Outrage","Earthquake","Fire Fang","Poison Jab"]},
@@ -134,6 +165,11 @@ var SETDEX_SM = {
 	"Golem": {
 		"1v1 Z Move Attacker": {"level":100,"evs":{"at":252,"hp":252,"sp":4},"nature":"Adamant","ability":"Sturdy","item":"Rockium Z","moves":["Earthquake","Stone Edge","Sucker Punch","Fire Punch"]},
 	},
+	/* "Golem":{
+		"1v1 nameless":{"level":100,"evs":{"at":252,"sd":4,"sp":252},"nature":"Adamant","ability":"Sturdy","item":"Groundium Z","moves":['Stone Edge  ', 'Earthquake  ', 'Counter  ', 'Sucker Punch']},
+		"1v1 nameless":{"level":100,"evs":{"at":252,"sd":4,"sp":252},"nature":"Adamant","ability":"Sturdy","item":"Rockium Z","moves":['Stone Edge  ', 'Earthquake  ', 'Fire Punch  ', 'Sucker Punch']},
+		"1v1 nameless":{"level":100,"evs":{"hp":64,"at":252,"sp":192},"nature":"Adamant","ability":"Stur","item":"Groundium","moves":['Earthquake', 'Sucker Punch', 'Stone Edge', 'Rock Tomb']}
+	}, */ 
 	"Landorus": {
 		"1v1 Substitute Attacker": {"level":100,"evs":{"sa":252,"at":4,"sp":252},"nature":"Hasty","ability":"Sheer Force","item":"Life Orb","moves":["Earth Power","Hidden Power Ice","Rock Slide","Sludge Wave"]},
 	},
@@ -210,6 +246,7 @@ var SETDEX_SM = {
 	},
 	"Araquanid": {
 		"1v1 Assault Vest": {"level":100,"evs":{"hp":252,"at":236,"sd":20},"nature":"Adamant","ability":"Water Bubble","item":"Assault Vest","moves":["Liquidation","Leech Life","Poison Jab","Mirror Coat"]},
+		"Buge":{"level":100,"evs":{"hp":252,"at":252,"df":4},"nature":"Adamant","ability":"Water Bubb","item":"Waterium Z","moves":['Liquidation', 'Toxic', 'Rest', 'Mirror Coat']}
 	},
 	"Medicham-Mega": {
 		"1v1 All Out Attacker": {"level":100,"evs":{"sd":4,"at":252,"sp":252},"nature":"Jolly","ability":"Huge Power","item":"Medichamite","moves":["Fake Out","High Jump Kick","Zen Headbutt","Thunder Punch"]},
@@ -229,12 +266,7 @@ var SETDEX_SM = {
 	"Abomasnow-Mega":{
 		"Dank Tank":{"level":100,"evs":{"hp":248,"df":12,"sa":248},"nature":"Quiet","ability":"Snow Warni","item":"Abomasi","moves":['Ice Shard', 'Blizzard', 'Energy Ball', 'Earthquake']}
 	},
-	"Aegislash":{
-		"1v1 nameless":{"level":100,"evs":{"hp":248,"at":4,"sa":252,"sd":4},"nature":"Quiet","ability":"Stance Change","item":"Ghostium Z","moves":['Shadow Ball  ', 'Flash Cannon  ', 'Shadow Sneak  ', "King's Shield  "]}
-	},
-	"Aegislash ":{
-		"Arthur":{"level":100,"evs":{"hp":248,"sa":252,"sp":8},"nature":"Mild","ability":"Stance Chan","item":"Ghostium","moves":['Shadow Ball', 'Shadow Sneak', 'Magnet Rise', "King's Shield"]}
-	},
+	
 	"Aggron":{
 		"real mic right now":{"level":100,"evs":{"hp":164,"at":252,"sp":92},"nature":"Adamant","ability":"Stur","item":"Rockium","moves":['Heavy Slam', 'Metal Burst', 'Stone Edge', 'Earthquake']}
 	},
@@ -249,17 +281,14 @@ var SETDEX_SM = {
 	"Ambipom":{
 		"Abusive Lover":{"level":100,"evs":{"at":252,"sd":4,"sp":252},"nature":"Jolly","ability":"Technici","item":"Life O","moves":['Fake Out', 'Giga Impact', 'Fire Punch', 'Ice Punch']}
 	},
-	"Araquanid":{
-		"Buge":{"level":100,"evs":{"hp":252,"at":252,"df":4},"nature":"Adamant","ability":"Water Bubb","item":"Waterium","moves":['Liquidation', 'Toxic', 'Rest', 'Mirror Coat']}
-	},
 	"Arcanine":{
 		"1v1 nameless":{"level":100,"evs":{"hp":248,"at":8,"df":252},"nature":"Impish","ability":"Intimidate","item":"Leftovers","moves":['Charm  ', 'Will-O-Wisp  ', 'Flame Charge  ', 'Rest']}
 	},
 	"Archeops":{
-		"1v1 nameless":{"level":100,"evs":{"at":252,"sd":4,"sp":252},"nature":"Jolly","ability":"Defeatist","item":"Choice Band","moves":['Head Smash  ', 'Earthquake  ', 'Switcheroo  ', 'Outrage ']}
+		"1v1 Choice Band":{"level":100,"evs":{"at":252,"sd":4,"sp":252},"nature":"Jolly","ability":"Defeatist","item":"Choice Band","moves":['Head Smash  ', 'Earthquake  ', 'Switcheroo  ', 'Outrage ']}
 	},
 	"Aron":{
-		"1v1 nameless":{"level":1,"nature":"Bashful","ability":"Sturdy","item":"Shell Bell","moves":['Endeavor  ', 'Toxic  ', 'Metal Burst  ', 'Aerial Ace']}
+		"1v1 FEAR":{"level":1,"nature":"Bashful","ability":"Sturdy","item":"Shell Bell","moves":['Endeavor  ', 'Toxic  ', 'Metal Burst  ', 'Aerial Ace']}
 	},
 	"Articuno":{
 		"1v1 nameless":{"level":100,"evs":{"hp":164,"df":252,"sa":32,"sp":60},"nature":"Bold","ability":"Pressu","item":"Flyinium","moves":['Freeze-Dry', 'Hurricane', 'Icy Wind', 'Rest']},
@@ -334,32 +363,7 @@ var SETDEX_SM = {
 	},
 	"Chandelure ":{
 		"Sia":{"level":100,"evs":{"hp":252,"df":16,"sa":240},"nature":"Modest","ability":"Flash Fi","item":"Choice Spe","moves":['Shadow Ball', 'Overheat', 'Energy Ball', 'Hyper Beam']}
-	},
-	"Chansey":{
-		"1v1 nameless":{"level":100,"evs":{"hp":248,"df":252,"sp":8},"nature":"Bold","ability":"Heal","item":"Evioli","moves":['Reflect', 'Psywave ', 'Soft-Boiled', 'Toxic']},
-		"Martha":{"level":100,"evs":{"hp":252,"df":252,"sd":4},"nature":"Bold","ability":"Natural Cu","item":"Evioli","moves":['Soft-Boiled', 'Seismic Toss', 'Counter', 'Toxic']},
-		"No":{"level":100,"evs":{"hp":252,"df":252,"sd":4},"nature":"Bold","ability":"Serene Gra","item":"Evioli","moves":['Soft-Boiled', 'Toxic', 'Charm', 'Ice Beam']}
-	},
-	"Chansey ":{
-		"1v1 nameless":{"level":100,"evs":{"hp":248,"df":252,"sd":8},"nature":"Bold","ability":"Serene Grace","item":"Eviolite","moves":['Charm  ', 'Counter', 'Soft-Boiled  ', 'Toxic']}
-	},
-	"Charizard-Mega-X":{
-		"1v1 nameless":{"level":100,"evs":{"at":252,"sd":4,"sp":252},"nature":"Jolly","ability":"Tough Claws","item":"Charizardite X","moves":['Will-O-Wisp', 'Flare Blitz  ', 'Outrage  ', 'Dragon Dance']},
-		"1v1 nameless":{"level":100,"evs":{"hp":252,"at":4,"df":252},"nature":"Impish","ability":"Tough Claws","item":"Charizardite X","moves":['Outrage  ', 'Flare Blitz  ', 'Dragon Dance  ', 'Counter ']},
-		"1v1 nameless":{"level":100,"evs":{"hp":12,"at":240,"df":40,"sp":216},"nature":"Jolly","ability":"Bla","item":"Charizardite","moves":['Belly Drum', 'Flare Blitz', 'Outrage', 'Flame Charge']},
-		"1v1 nameless":{"level":100,"evs":{"hp":128,"at":24,"df":104,"sp":252},"nature":"Jolly","ability":"Tough Cla","item":"Charizardite","moves":['Dragon Dance', 'Outrage', 'Flare Blitz', 'Substitute']},
-		"'Zard":{"level":100,"evs":{"at":252,"sd":4,"sp":252},"nature":"Adamant","ability":"Bla","item":"Charizardite","moves":['Dragon Dance', 'Belly Drum', 'Flare Blitz', 'Outrage']},
-		"'Zard":{"level":100,"evs":{"hp":20,"at":172,"df":76,"sp":240},"nature":"Adamant","ability":"Bla","item":"Charizardite","moves":['Dragon Dance', 'Outrage', 'Flare Blitz', 'Substitute']},
-		"'Zard":{"level":100,"evs":{"hp":12,"at":240,"df":40,"sp":216},"nature":"Jolly","ability":"Bla","item":"Charizardite","moves":['Belly Drum', 'Outrage', 'Flare Blitz', 'Flame Charge']}
-	},
-	"Charizard-Mega-X ":{
-		"Chuck":{"level":100,"evs":{"at":244,"df":40,"sp":224},"nature":"Jolly","ability":"Bla","item":"Charizardite","moves":['Flare Blitz', 'Outrage', 'Belly Drum', 'Fire Punch']}
-	},
-	"Charizard-Mega-Y":{
-		"1v1 nameless":{"level":100,"evs":{"hp":224,"df":228,"sa":56},"nature":"Calm","ability":"Drought","item":"Charizardite Y","moves":['Blast Burn  ', 'Air Slash  ', 'Solar Beam  ', 'Rock Tomb ']},
-		"1v1 nameless":{"level":100,"evs":{"sa":252,"sd":4,"sp":252},"nature":"Timid","ability":"Droug","item":"Charizardite","moves":['Solar Beam', 'Blast Burn', 'Air Slash', 'Hidden Power [Electric]']},
-		"1v1 nameless":{"level":100,"evs":{"df":232,"sa":60,"sp":216},"nature":"Modest","ability":"Droug","item":"Charizardite","moves":['Hidden Power [Electric]', 'Solar Beam', 'Blast Burn', 'Flamethrower']}
-	},
+	},	
 	"Chesnaught":{
 		"1v1 nameless":{"level":100,"evs":{"hp":252,"at":28,"sp":228},"nature":"Adamant","ability":"Bulletproof","item":"Grassium Z","moves":['Belly Drum  ', 'Poison Jab  ', 'Wood Hammer  ', 'Drain Punch']}
 	},
@@ -399,10 +403,7 @@ var SETDEX_SM = {
 	"Dodrio":{
 		"1v1 nameless":{"level":100,"evs":{"at":252,"sd":4,"sp":252},"nature":"Jolly","ability":"Early Bird","item":"Flyinium Z","moves":['Substitute  ', 'Brave Bird  ', 'Mirror Move  ', 'Giga Impact']}
 	},
-	"Donphan":{
-		"1v1 nameless":{"level":100,"evs":{"at":252,"sd":4,"sp":252},"nature":"Adamant","ability":"Sturdy","item":"Rockium Z","moves":['Earthquake  ', 'Head Smash / Stone edge', 'Ice Shard  ', 'Counter / Endeavor']},
-		"1v1 nameless":{"level":100,"evs":{"at":252,"sd":4,"sp":252},"nature":"Jolly","ability":"Sturdy","item":"Groundium Z","moves":['Earthquake  ', 'Ice Shard  ', 'Endeavor / Counter', 'Rock Tomb']}
-	},
+	
 	"Dragonite":{
 		"1v1 nameless":{"level":100,"evs":{"at":252,"sd":4,"sp":252},"nature":"Adamant","ability":"Multiscale","item":"Dragonium Z","moves":['Outrage  ', 'Extreme Speed  ', 'Fire Punch  ', 'Dragon Dance']},
 		"1v1 nameless":{"level":100,"evs":{"at":252,"sd":4,"sp":252},"nature":"Adamant","ability":"Multiscale","item":"Choice Band","moves":['Superpower  ', 'Earthquake  ', 'Outrage  ', 'Iron Head']},
@@ -481,18 +482,14 @@ var SETDEX_SM = {
 		"1v1 nameless":{"level":100,"evs":{"hp":252,"df":252,"sa":4},"nature":"Bold","ability":"Shadow Tag","item":"Gengarite","moves":['Counter  ', 'Taunt  ', 'Will-O-Wisp  ', 'Shadow Ball']}
 	},
 	"Gigalith":{
-		"1v1 nameless":{"level":100,"evs":{"hp":252,"at":252,"sd":4},"nature":"Adamant","ability":"Sturdy","item":"Rockium Z","moves":['Stone Edge  ', 'Earthquake  ', 'Rock Blast  ', 'Superpower']}
+		"1v1 Rockium Z":{"level":100,"evs":{"hp":252,"at":252,"sd":4},"nature":"Adamant","ability":"Sturdy","item":"Rockium Z","moves":['Stone Edge','Earthquake','Rock Blast','Superpower']}
 	},
 	"Gliscor":{
 		"1v1 nameless":{"level":100,"evs":{"hp":252,"at":4,"df":252},"nature":"Impish","ability":"Poison Heal","item":"Toxic Orb","moves":['Toxic  ', 'Protect  ', 'Earthquake  ', 'Roost']}
 	},
-	"Golem":{
-		"1v1 nameless":{"level":100,"evs":{"at":252,"sd":4,"sp":252},"nature":"Adamant","ability":"Sturdy","item":"Groundium Z","moves":['Stone Edge  ', 'Earthquake  ', 'Counter  ', 'Sucker Punch']},
-		"1v1 nameless":{"level":100,"evs":{"at":252,"sd":4,"sp":252},"nature":"Adamant","ability":"Sturdy","item":"Rockium Z","moves":['Stone Edge  ', 'Earthquake  ', 'Fire Punch  ', 'Sucker Punch']},
-		"1v1 nameless":{"level":100,"evs":{"hp":64,"at":252,"sp":192},"nature":"Adamant","ability":"Stur","item":"Groundium","moves":['Earthquake', 'Sucker Punch', 'Stone Edge', 'Rock Tomb']}
-	},
+	
 	"Golem-Alola":{
-		"1v1 nameless":{"level":100,"evs":{"at":252,"sd":4,"sp":252},"nature":"Adamant","ability":"Sturdy","item":"Electrium Z","moves":['Wild Charge  ', 'Stone Edge  ', 'Earthquake  ', 'Rock Blast']}
+		"1v1 Electrium Z":{"level":100,"evs":{"at":252,"sd":4,"sp":252},"nature":"Adamant","ability":"Sturdy","item":"Electrium Z","moves":['Wild Charge  ', 'Stone Edge  ', 'Earthquake  ', 'Rock Blast']}
 	},
 	"Gourgeist-Super":{
 		"1v1 nameless":{"level":100,"evs":{"hp":252,"at":252,"df":4},"nature":"Impish","ability":"Frisk","item":"Ghostium Z","moves":['Trick-or-Treat  ', 'Leech Seed  ', 'Phantom Force  ', 'Will-O-Wisp']}
@@ -500,12 +497,7 @@ var SETDEX_SM = {
 	"Granbull":{
 		"1v1 nameless":{"level":100,"evs":{"hp":28,"at":228,"df":252},"nature":"Adamant","ability":"Intimidate","item":"Fairium Z","moves":['Play Rough  ', 'Charm  ', 'Rest  ', 'Bulk Up']}
 	},
-	"Greninja":{
-		"1v1 nameless":{"level":100,"evs":{"sa":252,"sd":4,"sp":252},"nature":"Timid","ability":"Protean","item":"Choice Specs","moves":['Ice Beam  ', 'Hydro Cannon  ', 'Dark Pulse  ', 'Hidden Power [Fire]  ']},
-		"1v1 nameless":{"level":100,"evs":{"sa":252,"sd":4,"sp":252},"nature":"Timid","ability":"Torrent","item":"Waterium Z","moves":['Hydro Cannon  ', 'Substitute  ', 'Taunt  ', 'Dark Pulse  ']},
-		"1v1 nameless":{"level":100,"evs":{"sa":252,"sd":4,"sp":252},"nature":"Timid","ability":"Protean","item":"Waterium Z","moves":['Hydro Cannon  ', 'Water Shuriken  ', 'Dark Pulse  ', 'Grass Knot  ']},
-		"1v1 nameless":{"level":100,"evs":{"at":4,"sa":252,"sp":252},"nature":"Hasty","ability":"Protean","item":"Life Orb","moves":['Shadow Sneak  ', 'Gunk Shot  ', 'Hydro Pump  ', 'Dark Pulse  ']}
-	},
+	
 	"Gyarados-Mega":{
 		"1v1 nameless":{"level":100,"evs":{"hp":252,"at":76,"sd":76,"sp":104},"nature":"Impish","ability":"Mold Breaker","item":"Gyaradosite","moves":['Outrage  ', 'Dragon Dance  ', 'Waterfall  ', 'Earthquake  ']},
 		"1v1 nameless":{"level":100,"evs":{"hp":88,"at":252,"df":80,"sp":88},"nature":"Adamant","ability":"Mold Breaker","item":"Gyaradosite","moves":['Taunt  ', 'Crunch  ', 'Dragon Dance  ', 'Outrage  ']},
