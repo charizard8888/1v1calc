@@ -384,7 +384,7 @@ var SETDEX_SM = {
 		"1v1 nameless":{"level":100,"evs":{"at":252,"sd":4,"sp":252},"nature":"Jolly","ability":"Sturdy","item":"Rockium Z","moves":['Earthquake  ', 'Rock Wrecker  ', 'X-Scissor  ', 'Shell Smash']}
 	},
 	"Darmanitan":{
-		"1v1 nameless":{"level":100,"evs":{"at":252,"sd":4,"sp":252},"nature":"Adamant","ability":"Sheer Force","item":"Choice Scarf","moves":['Flare Blitz  ', 'Superpower  ', 'Earthquake  ', 'Rock Slide']},
+		"1v1 Choice Scarf":{"level":100,"evs":{"at":252,"sd":4,"sp":252},"nature":"Adamant","ability":"Sheer Force","item":"Choice Scarf","moves":['Flare Blitz  ', 'Superpower  ', 'Earthquake  ', 'Rock Slide']},
 		"1v1 Z-Belly Drum":{"level":100,"evs":{"df":252,"at":4,"hp":252},"nature":"Impish","ability":"Sheer Force","item":"Normalium Z","moves":["Flare Blitz", "Yawn", "Endure", "Belly Drum"]}
 	},
 	"Deoxys-Speed":{
