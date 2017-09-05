@@ -13,13 +13,11 @@ var SETDEX_SM = {
 		"'Zard":{"level":100,"evs":{"at":252,"sd":4,"sp":252},"nature":"Adamant","ability":"Bla","item":"Charizardite","moves":['Dragon Dance', 'Belly Drum', 'Flare Blitz', 'Outrage']},
 		"'Zard":{"level":100,"evs":{"hp":20,"at":172,"df":76,"sp":240},"nature":"Adamant","ability":"Bla","item":"Charizardite","moves":['Dragon Dance', 'Outrage', 'Flare Blitz', 'Substitute']},
 		"'Zard":{"level":100,"evs":{"hp":12,"at":240,"df":40,"sp":216},"nature":"Jolly","ability":"Bla","item":"Charizardite","moves":['Belly Drum', 'Outrage', 'Flare Blitz', 'Flame Charge']}
-	},
-	"Charizard-Mega-X ":{
 		"Chuck":{"level":100,"evs":{"at":244,"df":40,"sp":224},"nature":"Jolly","ability":"Bla","item":"Charizardite","moves":['Flare Blitz', 'Outrage', 'Belly Drum', 'Fire Punch']}
 	}, */
 	"Charizard-Mega-Y": {
 		"1v1 Sun Attacker": {"level":100,"evs":{"sd":4,"sa":252,"sp":252},"nature":"Timid","ability":"Drought","item":"Charizardite Y","moves":["Air Slash","Blast Burn","Solar Beam","Ancient Power"]},
-		"1v1 Bulky Special Attacker": {"level":100,"evs":{"sp":216,"sa":64,"df":156, "hp":72,},"nature":"Modest","ability":"Drought","item":"Charizardite Y","moves":["Air Slash","Blast Burn","Solar Beam","Ancient Power"]},
+		"1v1 Bulky Special Attacker": {"level":100,"evs":{"sp":216,"sa":64,"df":156,"hp":72,},"nature":"Modest","ability":"Drought","item":"Charizardite Y","moves":["Air Slash","Blast Burn","Solar Beam","Ancient Power"]},
 	},
 	/* "Charizard-Mega-Y":{
 		"1v1 nameless":{"level":100,"evs":{"hp":224,"df":228,"sa":56},"nature":"Calm","ability":"Drought","item":"Charizardite Y","moves":['Blast Burn', 'Air Slash', 'Solar Beam', 'Rock Tomb']},
@@ -92,7 +90,7 @@ var SETDEX_SM = {
 		"1v1 Choice Specs": {"level":100,"evs":{"sa":252,"sp":252,"sd":4},"nature":"Timid","ability":"Protean","item":"Choice Specs","moves":["Hydro Cannon","Grass Knot","Dark Pulse","Ice Beam"]},
 		"1v1 Waterium Z": {"level":100,"evs":{"sa":252,"sp":252,"sd":4},"nature":"Timid","ability":"Protean","item":"Waterium Z","moves":["Hydro Cannon","Grass Knot","Dark Pulse","Water Shuriken"]},
 		"1v1 Mixed Life Orb": {"level":100,"evs":{"sa":252,"sp":252,"at":4},"nature":"Hasty","ability":"Protean","item":"Life Orb","moves":["Hydro Pump","Shadow Sneak","Gunk Shot","Dark Pulse"]},
-		"1v1 Choice Band":{"level":100,"evs":{"sd":4,"sp":252,"at":252},"nature":"Adamant","ability":"Protean","item":"Choice Band","moves":['Ice Punch','Gunk Shot','Waterfall','Low Kick']}
+		"1v1 Choice Band":{"level":100,"evs":{"sd":4,"sp":252,"at":252},"nature":"Adamant","ability":"Protean","item":"Choice Band","moves":["Ice Punch","Gunk Shot","Waterfall","Low Kick"]}
 	},
 	"Magnezone": {
 		"1v1 Choice Specs": {"level":100,"evs":{"sa":252,"sp":212,"hp":44},"nature":"Modest","ability":"Sturdy","item":"Choice Specs","moves":["Thunderbolt","Flash Cannon","Hidden Power Ice","Hyper Beam"]},
