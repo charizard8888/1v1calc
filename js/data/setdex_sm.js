@@ -93,13 +93,8 @@ var SETDEX_SM = {
 		"1v1 Choice Specs": {"level":100,"evs":{"sa":252,"sp":252,"sd":4},"nature":"Timid","ability":"Protean","item":"Choice Specs","moves":["Hydro Cannon","Grass Knot","Dark Pulse","Ice Beam"]},
 		"1v1 Waterium Z": {"level":100,"evs":{"sa":252,"sp":252,"sd":4},"nature":"Timid","ability":"Protean","item":"Waterium Z","moves":["Hydro Cannon","Grass Knot","Dark Pulse","Water Shuriken"]},
 		"1v1 Mixed Life Orb": {"level":100,"evs":{"sa":252,"sp":252,"at":4},"nature":"Hasty","ability":"Protean","item":"Life Orb","moves":["Hydro Pump","Shadow Sneak","Gunk Shot","Dark Pulse"]},
+		"1v1 Choice Band": {"level":100,"evs":{"at":252,"sp":252,"sd":4},"nature":"Adamant","ability":"Protean","item":"Choice Band","moves":["Waterfall","Gunk Shot","Low Kick","Rock Slide"]},
 	},
-	/* "Greninja":{
-		"1v1 nameless":{"level":100,"evs":{"sa":252,"sd":4,"sp":252},"nature":"Timid","ability":"Protean","item":"Choice Specs","moves":['Ice Beam  ', 'Hydro Cannon  ', 'Dark Pulse  ', 'Hidden Power [Fire]  ']},
-		"1v1 nameless":{"level":100,"evs":{"sa":252,"sd":4,"sp":252},"nature":"Timid","ability":"Torrent","item":"Waterium Z","moves":['Hydro Cannon  ', 'Substitute  ', 'Taunt  ', 'Dark Pulse  ']},
-		"1v1 nameless":{"level":100,"evs":{"sa":252,"sd":4,"sp":252},"nature":"Timid","ability":"Protean","item":"Waterium Z","moves":['Hydro Cannon  ', 'Water Shuriken  ', 'Dark Pulse  ', 'Grass Knot  ']},
-		"1v1 nameless":{"level":100,"evs":{"at":4,"sa":252,"sp":252},"nature":"Hasty","ability":"Protean","item":"Life Orb","moves":['Shadow Sneak  ', 'Gunk Shot  ', 'Hydro Pump  ', 'Dark Pulse  ']}
-	}, */
 	"Magnezone": {
 		"1v1 Choice Specs": {"level":100,"evs":{"sa":252,"sp":212,"hp":44},"nature":"Modest","ability":"Sturdy","item":"Choice Specs","moves":["Thunderbolt","Flash Cannon","Hidden Power Ice","Hyper Beam"]},
 		"1v1 Electrium Z": {"level":100,"evs":{"sa":252,"sp":136,"hp":120},"nature":"Modest","ability":"Sturdy","item":"Electrium Z","moves":["Thunder","Flash Cannon","Hidden Power Ice","Electroweb"]},
@@ -161,7 +156,7 @@ var SETDEX_SM = {
 	},
 	"Golem": {
 		"1v1 Z Move Attacker": {"level":100,"evs":{"at":252,"hp":252,"sp":4},"nature":"Adamant","ability":"Sturdy","item":"Rockium Z","moves":["Earthquake","Stone Edge","Sucker Punch","Fire Punch"]},
-		"1v1 Z-Rock Tomb":{"level":100,"evs":{"hp":64,"at":252,"sp":192},"nature":"Adamant","ability":"Sturdy","item":"Groundium Z","moves":['Earthquake', 'Sucker Punch', 'Stone Edge', 'Rock Tomb']}
+		"1v1 Rock Tomb Z":{"level":100,"evs":{"hp":64,"at":252,"sp":192},"nature":"Adamant","ability":"Sturdy","item":"Groundium Z","moves":["Earthquake", "Sucker Punch", "Stone Edge", "Rock Tomb"]}
 	},
 	"Landorus": {
 		"1v1 Substitute Attacker": {"level":100,"evs":{"sa":252,"at":4,"sp":252},"nature":"Hasty","ability":"Sheer Force","item":"Life Orb","moves":["Earth Power","Hidden Power Ice","Rock Slide","Sludge Wave"]},
@@ -382,8 +377,8 @@ var SETDEX_SM = {
 		"1v1 nameless":{"level":100,"evs":{"at":252,"sd":4,"sp":252},"nature":"Jolly","ability":"Sturdy","item":"Rockium Z","moves":['Earthquake  ', 'Rock Wrecker  ', 'X-Scissor  ', 'Shell Smash']}
 	},
 	"Darmanitan":{
-		"1v1 Choice Scarf":{"level":100,"evs":{"at":252,"sd":4,"sp":252},"nature":"Adamant","ability":"Sheer Force","item":"Choice Scarf","moves":['Flare Blitz', 'Superpower', 'Earthquake', 'Rock Slide']}
-		"1v1 Z-Belly Drum":{"level":100,"evs":{"df":252,"at":4,"hp":252},"nature":"Impish","ability":"Sheer Force","item":"Normalium Z","moves":['Flare Blitz', 'Yawn', 'Endure', 'Belly Drum']}
+		"1v1 Choice Scarf":{"level":100,"evs":{"at":252,"sd":4,"sp":252},"nature":"Adamant","ability":"Sheer Force","item":"Choice Scarf","moves":["Flare Blitz", "Superpower", "Earthquake", "Rock Slide"]}
+		"1v1 Z-Belly Drum":{"level":100,"evs":{"df":252,"at":4,"hp":252},"nature":"Impish","ability":"Sheer Force","item":"Normalium Z","moves":["Flare Blitz", "Yawn", "Endure", "Belly Drum"]}
 	},
 	"Deoxys-Speed":{
 		"1v1 nameless":{"level":100,"evs":{"sa":252,"sd":4,"sp":252},"nature":"Modest","ability":"Pressure","item":"Fightinium Z","moves":['Psycho Boost  ', 'Focus Blast  ', 'Taunt  ', 'Dark Pulse']},
@@ -405,6 +400,7 @@ var SETDEX_SM = {
 	},
 	"Durant":{
 		"1v1 Choice Band":{"level":100,"evs":{"at":224,"df":28,"sp":252},"nature":"Jolly","ability":"Hustle","item":"Choice Band","moves":['Iron Head', 'X-Scissor', 'Stone Edge', 'Superpower']},
+			"1v1 Truant Stall":{"level":100,"evs":{"hp":248,"at":8,"df":252},"nature":"Impish","ability":"Truant","item":"Leftovers","moves":['Entrainment', 'Toxic', 'Iron Defense', 'Protect']}
 
 	},
 	"Dusclops":{
