@@ -92,7 +92,7 @@ var SETDEX_SM = {
 		"1v1 Choice Specs": {"level":100,"evs":{"sa":252,"sp":252,"sd":4},"nature":"Timid","ability":"Protean","item":"Choice Specs","moves":["Hydro Cannon","Grass Knot","Dark Pulse","Ice Beam"]},
 		"1v1 Waterium Z": {"level":100,"evs":{"sa":252,"sp":252,"sd":4},"nature":"Timid","ability":"Protean","item":"Waterium Z","moves":["Hydro Cannon","Grass Knot","Dark Pulse","Water Shuriken"]},
 		"1v1 Mixed Life Orb": {"level":100,"evs":{"sa":252,"sp":252,"at":4},"nature":"Hasty","ability":"Protean","item":"Life Orb","moves":["Hydro Pump","Shadow Sneak","Gunk Shot","Dark Pulse"]},
-		"1v1 Choice Band":{"level":100,"evs":{"sd":4,"sp":252,"at":252},"nature":"Adamant","ability":"Protean","item":"Choice Band","moves":['Ice Punch', 'Gunk Shot', 'Waterfall', 'Low Kick']}
+		"1v1 Choice Band":{"level":100,"evs":{"sd":4,"sp":252,"at":252},"nature":"Adamant","ability":"Protean","item":"Choice Band","moves":['Ice Punch','Gunk Shot','Waterfall','Low Kick']}
 	},
 	"Magnezone": {
 		"1v1 Choice Specs": {"level":100,"evs":{"sa":252,"sp":212,"hp":44},"nature":"Modest","ability":"Sturdy","item":"Choice Specs","moves":["Thunderbolt","Flash Cannon","Hidden Power Ice","Hyper Beam"]},
@@ -156,7 +156,7 @@ var SETDEX_SM = {
 	},
 	"Golem": {
 		"1v1 Z Move Attacker": {"level":100,"evs":{"at":252,"hp":252,"sp":4},"nature":"Adamant","ability":"Sturdy","item":"Rockium Z","moves":["Earthquake","Stone Edge","Sucker Punch","Fire Punch"]},
-		"1v1 Rock Tomb Z":{"level":100,"evs":{"hp":64,"at":252,"sp":192},"nature":"Adamant","ability":"Sturdy","item":"Groundium","moves":['Earthquake', 'Sucker Punch', 'Stone Edge', 'Rock Tomb']}
+		"1v1 Rock Tomb Z":{"level":100,"evs":{"hp":64,"at":252,"sp":192},"nature":"Adamant","ability":"Sturdy","item":"Groundium","moves":['Earthquake','Sucker Punch','Stone Edge','Rock Tomb']}
 	}, 
 	"Landorus": {
 		"1v1 Substitute Attacker": {"level":100,"evs":{"sa":252,"at":4,"sp":252},"nature":"Hasty","ability":"Sheer Force","item":"Life Orb","moves":["Earth Power","Hidden Power Ice","Rock Slide","Sludge Wave"]},
@@ -252,20 +252,20 @@ var SETDEX_SM = {
 		"1v1 Choice Band": {"level":100,"evs":{"sp":252,"sd":4,"at":252},"nature":"Jolly","ability":"Skill Link","item":"Choice Band","moves":["Tail Slap","Rock Blast","Bullet Seed","Gunk Shot"]},
 	},
 	"Abomasnow-Mega":{
-		"Dank Tank":{"level":100,"evs":{"hp":248,"df":12,"sa":248},"nature":"Quiet","ability":"Snow Warni","item":"Abomasi","moves":['Ice Shard', 'Blizzard', 'Energy Ball', 'Earthquake']}
+		"1v1 Dank Tank":{"level":100,"evs":{"hp":248,"df":12,"sa":248},"nature":"Quiet","ability":"Snow Warning","item":"Abomasi","moves":['Ice Shard', 'Blizzard', 'Energy Ball', 'Earthquake']}
 	},
 	
 	"Aggron":{
-		"real mic right now":{"level":100,"evs":{"hp":164,"at":252,"sp":92},"nature":"Adamant","ability":"Sturdy","item":"Rockium","moves":['Heavy Slam', 'Metal Burst', 'Stone Edge', 'Earthquake']}
-		"1v1 Pre-Mega Curse":{"level":100,"evs":{"hp":252,"at":216,"df":40},"nature":"Adamant","ability":"Sturdy","item":"Aggronite","moves":['Heavy Slam', 'Head Smash', 'Curse', 'Rest']},
-		"1v1 PRe-Mega Nameless":{"level":100,"evs":{"hp":252,"at":176,"sd":80},"nature":"Brave","ability":"Sturdy","item":"Aggronite","moves":['Metal Burst', 'Heavy Slam', 'Head Smash', 'Taunt']},
+		"1v1 Real mic right now":{"level":100,"evs":{"hp":164,"at":252,"sp":92},"nature":"Adamant","ability":"Sturdy","item":"Rockium","moves":['Heavy Slam','Metal Burst','Stone Edge','Earthquake']}
+		"1v1 Pre-Mega Curse":{"level":100,"evs":{"hp":252,"at":216,"df":40},"nature":"Adamant","ability":"Sturdy","item":"Aggronite","moves":['Heavy Slam','Head Smash','Curse','Rest']},
+		"1v1 Pre-Mega Nameless":{"level":100,"evs":{"hp":252,"at":176,"sd":80},"nature":"Brave","ability":"Sturdy","item":"Aggronite","moves":['Metal Burst','Heavy Slam','Head Smash','Taunt']},
 	},
 	"Aggron-Mega":{
 		"1v1 Curse":{"level":100,"evs":{"hp":252,"at":216,"df":40},"nature":"Adamant","ability":"Filter","item":"Aggronite","moves":['Heavy Slam', 'Head Smash', 'Curse', 'Rest']},
 		"1v1 Nameless":{"level":100,"evs":{"hp":252,"at":176,"sd":80},"nature":"Brave","ability":"Filter","item":"Aggronite","moves":['Metal Burst', 'Heavy Slam', 'Head Smash', 'Taunt']},
 	},
 	"Alakazam-Mega":{
-		"1v1 nameless":{"level":100,"evs":{"sa":252,"sd":4,"sp":252},"nature":"Timid","ability":"Trace","item":"Alakazite","moves":['Protect  ', 'Encore  ', 'Psychic  ', 'Disable']}
+		"1v1 nameless":{"level":100,"evs":{"sa":252,"sd":4,"sp":252},"nature":"Timid","ability":"Trace","item":"Alakazite","moves":['Protect','Encore','Psychic','Disable']}
 	},
 	"Ambipom":{
 		"1v1 Life Orb":{"level":100,"evs":{"at":252,"sd":4,"sp":252},"nature":"Jolly","ability":"Technician","item":"Life Orb","moves":['Fake Out', 'Giga Impact', 'Fire Punch', 'Ice Punch']}
@@ -283,8 +283,8 @@ var SETDEX_SM = {
 		"1v1 tbd":{"level":100,"evs":{"hp":252,"at":216,"df":4,"sd":36},"nature":"Adamant","ability":"Huge Power","item":"Waterium Z","moves":['Waterfall', 'Aqua Jet', 'Play Rough', 'Belly Drum']}
 	},
 	"Banette-Mega":{
-		"1v1 nameless":{"level":100,"evs":{"hp":252,"at":4,"df":252},"nature":"Adamant","ability":"Frisk","item":"Banettite","moves":['Will-O-Wisp', 'Disable', 'Pain Split', 'Shadow Claw']},
-		"1v1 Yes":{"level":100,"evs":{"hp":252,"at":4,"df":252},"nature":"Impish","ability":"Cursed Bo","item":"Banetti","moves":['Cotton Guard', 'Will-O-Wisp', 'Shadow Claw', 'Taunt']}
+		"1v1 nameless":{"level":100,"evs":{"hp":252,"at":4,"df":252},"nature":"Adamant","ability":"Frisk","item":"Banettite","moves":['Will-O-Wisp','Disable','Pain Split','Shadow Claw']},
+		"1v1 Yes":{"level":100,"evs":{"hp":252,"at":4,"df":252},"nature":"Impish","ability":"Cursed Bo","item":"Banetti","moves":['Cotton Guard','Will-O-Wisp','Shadow Claw','Taunt']}
 	},
 	"Barbaracle":{
 		"1v1 nameless":{"level":100,"evs":{"hp":116,"at":208,"sp":184},"nature":"Adamant","ability":"Tough Claws","item":"Rockium Z","moves":['Razor Shell  ', 'Shell Smash  ', 'Stone Edge  ', 'Superpower']}
@@ -1076,7 +1076,7 @@ var SETDEX_SM = {
 	"Zygarde":{
 		"1v1 nameless":{"level":100,"evs":{"at":252,"sd":4,"sp":252},"nature":"Adamant","ability":"Aura Break","item":"Groundium Z","moves":['Dragon Dance  ', 'Outrage  ', 'Thousand Arrows  ', 'Extreme Speed  ']},
 		"1v1 nameless":{"level":100,"evs":{"hp":252,"at":68,"df":52,"sp":136},"nature":"Impish","ability":"Aura Break","item":"Dragonium Z","moves":['Coil  ', 'Outrage  ', 'Thousand Arrows  ', 'Extreme Speed']},
-		"Unban Power Con.":{"level":100,"evs":{"hp":248,"at":212,"df":16,"sp":32},"nature":"Adamant","ability":"Aura Bre","item":"Groundium","moves":['Dragon Dance', 'Thousand Arrows', 'Substitute', 'Rock Slide']}
+		"1v1 Unban Power Construct":{"level":100,"evs":{"hp":248,"at":212,"df":16,"sp":32},"nature":"Adamant","ability":"Aura Bre","item":"Groundium","moves":['Dragon Dance', 'Thousand Arrows', 'Substitute', 'Rock Slide']}
 	},
 	"Zygarde-10%":{
 		"1v1 nameless":{"level":100,"evs":{"at":252,"sd":4,"sp":252},"nature":"Jolly","ability":"Aura Break","item":"Choice Band","moves":['Thousand Arrows  ', 'Outrage  ', 'Superpower  ', 'Stone Edge  ']}
