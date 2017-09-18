@@ -275,7 +275,7 @@ var SETDEX_SM = {
 	},
 	"Ambipom":{
 		"Abusive Lover":{"level":100,"evs":{"at":252,"sd":4,"sp":252},"nature":"Jolly","ability":"Technici","item":"Life O","moves":['Fake Out', 'Giga Impact', 'Fire Punch', 'Ice Punch']}
-	},
+	},/*
 	"Arcanine":{
 		"1v1 nameless":{"level":100,"evs":{"hp":248,"at":8,"df":252},"nature":"Impish","ability":"Intimidate","item":"Leftovers","moves":['Charm  ', 'Will-O-Wisp  ', 'Flame Charge  ', 'Rest']}
 	},
@@ -1096,5 +1096,5 @@ var SETDEX_SM = {
 	},
 	"Zygarde-10%":{
 		"1v1 nameless":{"level":100,"evs":{"at":252,"sd":4,"sp":252},"nature":"Jolly","ability":"Aura Break","item":"Choice Band","moves":['Thousand Arrows  ', 'Outrage  ', 'Superpower  ', 'Stone Edge  ']}
-	},
+	},*/
 };
