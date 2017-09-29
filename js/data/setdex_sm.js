@@ -49,7 +49,7 @@ var SETDEX_SM = {
 		"1v1 Bulky Offense": {"level":100,"evs":{"at":252,"hp":248,"sp":8},"nature":"Adamant","ability":"Huge Power","item":"Mawilite","moves":["Play Rough","Iron Head","Sucker Punch","Fire Fang"]},
 	},
 	"Porygon-Z": {
-		"1v1 Standard Scarf": {"level":100,"evs":{"sd":4,"sa":252,"sp":252},"nature":"Timid","ability":"Adaptability","item":"Choice Scarf","moves":["Hyper Beam", "Uproar", "Shadow Ball", "Ice Beam"]},
+		"1v1 Standard Scarf": {"level":100,"evs":{"sd":4,"sa":252,"sp":252},"nature":"Modest","ability":"Adaptability","item":"Choice Scarf","moves":["Hyper Beam", "Uproar", "Shadow Ball", "Ice Beam"]},
 		"1v1 Bulky Scarf": {"level":100,"evs":{"df":240,"sa":172,"sp":96},"nature":"Timid","ability":"Adaptability","item":"Choice Scarf","moves":["Hyper Beam", "Uproar", "Shadow Ball", "Ice Beam"]},
 		"1v1 Bulky Specs": {"level":100,"evs":{"sa":132,"hp":252,"df":124},"nature":"Modest","ability":"Adaptability","item":"Choice Specs","moves":["Hyper Beam", "Uproar", "Shadow Ball", "Ice Beam"]},
 		"1v1 Bulky Z-Conversion": {"level":100,"evs":{"df":4,"sa":252,"hp":252},"nature":"Modest","ability":"Adaptability","item":"Normalium Z","moves":["Thunderbolt", "Conversion", "Hyper Beam", "Ice Beam"]},
@@ -138,6 +138,11 @@ var SETDEX_SM = {
 		"1v1 Choice Band": {"level":100,"evs":{"sd":4,"at":252,"sp":252},"nature":"Jolly","ability":"Rough Skin","item":"Choice Band","moves":["Outrage","Earthquake","Fire Fang","Poison Jab"]},
 		"1v1 Choice Scarf": {"level":100,"evs":{"sd":4,"at":252,"sp":252},"nature":"Jolly","ability":"Rough Skin","item":"Choice Scarf","moves":["Outrage","Earthquake","Fire Fang","Poison Jab"]},
 		"1v1 SubTonic Rage": {"level":100,"evs":{"sd":4,"at":252,"sp":252},"nature":"Jolly","ability":"Rough Skin","item":"Groundium Z","moves":["Outrage","Earthquake","Fire Fang","Swords Dance"]},
+	},
+	"Lucario-Mega": {
+		"1v1 Reversal Engineering": {"level":100,"evs":{"sd":4,"at":252,"sp":252},"nature":"Jolly","ability":"Adaptability","item":"Lucarionite","moves":["Reversal","Rock Tomb","Bullet Punch","Iron Tail"]},
+		"1v1 Physical Attacker": {"level":100,"evs":{"sd":4,"at":252,"sp":252},"nature":"Jolly","ability":"Adaptability","item":"Lucarionite","moves":["Close Combat","High Jump Kick","Iron Tail","Poison Jab"]},
+		"1v1 Special Attacker": {"level":100,"evs":{"sd":4,"sa":252,"sp":252},"nature":"Timid","ability":"Adaptability","item":"Lucarionite","moves":["Focus Blast","Flash Cannon","Dark Pulse","Vaccum Wave"]},
 	},
 	"Genesect": {
 		"1v1 Choice Specs": {"level":100,"evs":{"sp":4,"sa":252,"hp":252},"nature":"Modest","ability":"Download","item":"Choice Specs","moves":["Bug Buzz","Flash Cannon","Thunderbolt","Flamethrower"]},
