@@ -12602,6 +12602,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
   },
   "Naganadel": {
     "t1": "Poison",
+    "t2": "Dragon",
     "bs": {
       "hp": 73,
       "at": 73,
@@ -12612,5 +12613,47 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     },
     "w": 610.0,
     "ab": "Beast Boost"
+  },
+  "Necrozma-Dusk Mane": {
+    "t1": "Psychic",
+    "t2": "Steel",
+    "bs": {
+      "hp": 97,
+      "at": 157,
+      "df": 127,
+      "sa": 113,
+      "sd": 109,
+      "sp": 77
+    },
+    "w": 610.0,
+    "ab": "Prism Armor"
+  },
+  "Necrozma-Dawn Wings": {
+    "t1": "Psychic",
+    "t2": "Ghost",
+    "bs": {
+      "hp": 97,
+      "at": 113,
+      "df": 109,
+      "sa": 157,
+      "sd": 127,
+      "sp": 77
+    },
+    "w": 610.0,
+    "ab": "Prism Armor"
+  },
+  "Ultra Necrozma": {
+    "t1": "Psychic",
+    "t2": "Ghost",
+    "bs": {
+      "hp": 97,
+      "at": 167,
+      "df": 97,
+      "sa": 167,
+      "sd": 97,
+      "sp": 129
+    },
+    "w": 610.0,
+    "ab": "Run Away"
   },
 });
