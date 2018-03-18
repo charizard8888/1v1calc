@@ -12680,7 +12680,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
 }, 
 },"Gyarotic": {
 "t1:" "Water", 
-"t2": "undefined",
+"t2": "Test",
 "bs": { 
 "hp": 105, 
 "at": 102, 
@@ -12702,7 +12702,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
 }, 
 },"Azuninja": {
 "t1:" "Water", 
-"t2": "undefined",
+"t2": "Test",
 "bs": { 
 "hp": 96, 
 "at": 82, 
@@ -13043,7 +13043,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
 }, 
 },"Weasol": {
 "t1:" "Dark", 
-"t2": "undefined",
+"t2": "Test",
 "bs": { 
 "hp": 77, 
 "at": 135, 
@@ -13285,7 +13285,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
 }, 
 },"Sharpedos": {
 "t1:" "Water", 
-"t2": "undefined",
+"t2": "Test",
 "bs": { 
 "hp": 92, 
 "at": 132, 
@@ -13296,7 +13296,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
 }, 
 },"Sharpedos-Mega-X": {
 "t1:" "Water", 
-"t2": "undefined",
+"t2": "Test",
 "bs": { 
 "hp": 92, 
 "at": 152, 
@@ -14055,7 +14055,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
 }, 
 },"Mampharos": {
 "t1:" "Electric", 
-"t2": "undefined",
+"t2": "Test",
 "bs": { 
 "hp": 95, 
 "at": 90, 
@@ -14066,7 +14066,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
 }, 
 },"Mampharos-Mega-M": {
 "t1:" "Electric", 
-"t2": "undefined",
+"t2": "Test",
 "bs": { 
 "hp": 95, 
 "at": 90, 
@@ -14781,7 +14781,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
 }, 
 },"Polyform2": {
 "t1:" "Normal", 
-"t2": "undefined",
+"t2": "Test",
 "bs": { 
 "hp": 98, 
 "at": 75, 
@@ -14836,7 +14836,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
 }, 
 },"Lopunne": {
 "t1:" "Normal", 
-"t2": "undefined",
+"t2": "Test",
 "bs": { 
 "hp": 81, 
 "at": 83, 
@@ -15221,7 +15221,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
 }, 
 },"Basculin-Basculin": {
 "t1:" "Water", 
-"t2": "undefined",
+"t2": "Test",
 "bs": { 
 "hp": 80, 
 "at": 102, 
@@ -15353,7 +15353,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
 }, 
 },"Sunflorrim": {
 "t1:" "Grass", 
-"t2": "undefined",
+"t2": "Test",
 "bs": { 
 "hp": 82, 
 "at": 77, 
@@ -15375,7 +15375,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
 }, 
 },"Ambiccino": {
 "t1:" "Normal", 
-"t2": "undefined",
+"t2": "Test",
 "bs": { 
 "hp": 90, 
 "at": 113, 
@@ -15650,7 +15650,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
 }, 
 },"Smelly": {
 "t1:" "Normal", 
-"t2": "undefined",
+"t2": "Test",
 "bs": { 
 "hp": 75, 
 "at": 57, 
@@ -15980,7 +15980,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
 }, 
 },"King Kek": {
 "t1:" "Normal", 
-"t2": "undefined",
+"t2": "Test",
 "bs": { 
 "hp": 115, 
 "at": 135, 
@@ -16189,7 +16189,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
 }, 
 },"Covally-Fairy": {
 "t1:" "Fairy", 
-"t2": "undefined",
+"t2": "Test",
 "bs": { 
 "hp": 93, 
 "at": 73, 
@@ -16365,7 +16365,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
 }, 
 },"Omneus-Water": {
 "t1:" "Water", 
-"t2": "undefined",
+"t2": "Test",
 "bs": { 
 "hp": 77, 
 "at": 80, 
@@ -16651,7 +16651,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
 }, 
 },"Plumin": {
 "t1:" "Electric", 
-"t2": "undefined",
+"t2": "Test",
 "bs": { 
 "hp": 70, 
 "at": 55, 
@@ -16805,7 +16805,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
 }, 
 },"Dittsey": {
 "t1:" "Normal", 
-"t2": "undefined",
+"t2": "Test",
 "bs": { 
 "hp": 167, 
 "at": 31, 
@@ -16849,7 +16849,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
 }, 
 },"A Rave-Alola-Electric": {
 "t1:" "Electric", 
-"t2": "undefined",
+"t2": "Test",
 "bs": { 
 "hp": 87, 
 "at": 127, 
@@ -17245,7 +17245,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
 }, 
 },"Kecleus": {
 "t1:" "Normal", 
-"t2": "undefined",
+"t2": "Test",
 "bs": { 
 "hp": 90, 
 "at": 105, 
@@ -17256,7 +17256,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
 }, 
 },"Fear-Roh": {
 "t1:" "Flying", 
-"t2": "undefined",
+"t2": "Test",
 "bs": { 
 "hp": 85, 
 "at": 125, 
@@ -17267,7 +17267,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
 }, 
 },"Neoprene": {
 "t1:" "Steel", 
-"t2": "undefined",
+"t2": "Test",
 "bs": { 
 "hp": 100, 
 "at": 90, 
@@ -17278,7 +17278,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
 }, 
 },"Maroram-Alola": {
 "t1:" "Fire", 
-"t2": "undefined",
+"t2": "Test",
 "bs": { 
 "hp": 80, 
 "at": 108, 
@@ -17289,7 +17289,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
 }, 
 },"Genny": {
 "t1:" "Bug", 
-"t2": "undefined",
+"t2": "Test",
 "bs": { 
 "hp": 73, 
 "at": 131, 
@@ -17300,7 +17300,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
 }, 
 },"Sylvoko": {
 "t1:" "Fairy", 
-"t2": "undefined",
+"t2": "Test",
 "bs": { 
 "hp": 82, 
 "at": 100, 
@@ -17311,7 +17311,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
 }, 
 },"Miniancie-Ore": {
 "t1:" "Rock", 
-"t2": "undefined",
+"t2": "Test",
 "bs": { 
 "hp": 55, 
 "at": 80, 
@@ -17322,7 +17322,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
 }, 
 },"Miniancie-Jewel": {
 "t1:" "Rock", 
-"t2": "undefined",
+"t2": "Test",
 "bs": { 
 "hp": 55, 
 "at": 145, 
@@ -17333,7 +17333,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
 }, 
 },"Tapu Dede": {
 "t1:" "Grass", 
-"t2": "undefined",
+"t2": "Test",
 "bs": { 
 "hp": 79, 
 "at": 150, 
@@ -17344,7 +17344,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
 }, 
 },"Shenala": {
 "t1:" "Ghost", 
-"t2": "undefined",
+"t2": "Test",
 "bs": { 
 "hp": 69, 
 "at": 111, 
@@ -17960,7 +17960,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
 }, 
 },"Fablefin": {
 "t1:" "Fairy", 
-"t2": "undefined",
+"t2": "Test",
 "bs": { 
 "hp": 85, 
 "at": 72, 
@@ -18191,7 +18191,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
 }, 
 },"Mimiblim": {
 "t1:" "Ghost", 
-"t2": "undefined",
+"t2": "Test",
 "bs": { 
 "hp": 112, 
 "at": 95, 
@@ -18378,7 +18378,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
 }, 
 },"Zorarce-Dark": {
 "t1:" "Dark", 
-"t2": "undefined",
+"t2": "Test",
 "bs": { 
 "hp": 80, 
 "at": 102, 
@@ -18598,7 +18598,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
 }, 
 },"Mapu Moli": {
 "t1:" "Electric", 
-"t2": "undefined",
+"t2": "Test",
 "bs": { 
 "hp": 75, 
 "at": 93, 
@@ -18609,7 +18609,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
 }, 
 },"Mapu Bupa": {
 "t1:" "Psychic", 
-"t2": "undefined",
+"t2": "Test",
 "bs": { 
 "hp": 75, 
 "at": 90, 
@@ -18675,7 +18675,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
 }, 
 },"Mighty Yvel": {
 "t1:" "Dark", 
-"t2": "undefined",
+"t2": "Test",
 "bs": { 
 "hp": 101, 
 "at": 110, 
@@ -19269,7 +19269,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
 }, 
 },"Dunking": {
 "t1:" "Normal", 
-"t2": "undefined",
+"t2": "Test",
 "bs": { 
 "hp": 135, 
 "at": 125, 
@@ -19335,7 +19335,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
 }, 
 },"Diceus": {
 "t1:" "Normal", 
-"t2": "undefined",
+"t2": "Test",
 "bs": { 
 "hp": 104, 
 "at": 84, 
