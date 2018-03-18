@@ -17,6 +17,25 @@ var TYPE_CHART_RBY = {
         Ghost: 0,
         Dragon: 1
     },
+        Test: {
+        category: 'Physical',
+        Normal: 1,
+        Grass: 1,
+        Fire: 1,
+        Water: 1,
+        Electric: 1,
+        Ice: 1,
+        Flying: 1,
+        Bug: 1,
+        Poison: 1,
+        Ground: 1,
+        Rock: 0.5,
+        Fighting: 1,
+        Psychic: 1,
+        Ghost: 0,
+        Dragon: 1,
+    Test: 1
+    },
     Grass: {
         category: 'Special',
         Normal: 1,
@@ -380,57 +399,74 @@ var TYPE_CHART_GSC = $.extend(true, {}, TYPE_CHART_RBY, {
 
 var TYPE_CHART_XY = $.extend(true, {}, TYPE_CHART_GSC, {
     Normal: {
-        Fairy: 1
+        Fairy: 1,
+        Test: 1
     },
     Grass: {
-        Fairy: 1
+        Fairy: 1,
+        Test: 1
     },
     Fire: {
-        Fairy: 1
+        Fairy: 1,
+        Test: 1
     },
     Water: {
-        Fairy: 1
+        Fairy: 1,
+        Test: 1
     },
     Electric: {
-        Fairy: 1
+        Fairy: 1,
+        Test: 1
     },
     Ice: {
-        Fairy: 1
+        Fairy: 1,
+        Test: 1
     },
     Flying: {
-        Fairy: 1
+        Fairy: 1,
+        Test: 1
     },
     Bug: {
-        Fairy: 0.5
+        Fairy: 0.5.
+        Test: 1
     },
     Poison: {
-        Fairy: 2
+        Fairy: 2,
+        Test: 1
     },
     Ground: {
-        Fairy: 1
+        Fairy: 1,
+        Test: 1
     },
     Rock: {
-        Fairy: 1
+        Fairy: 1,
+        Test: 1
     },
     Fighting: {
-        Fairy: 0.5
+        Fairy: 0.5,
+        Test: 1
     },
     Psychic: {
-        Fairy: 1
+        Fairy: 1,
+        Test: 1
     },
     Ghost: {
         Steel: 1,
+        Test: 1,
         Fairy: 1
     },
     Dragon: {
-        Fairy: 0
+        Fairy: 0,
+        Test: 1
     },
     Dark: {
         Steel: 1,
+        Test: 1,
         Fairy: 0.5
     },
     Steel: {
-        Fairy: 2
+        Fairy: 2,
+        Test: 1
     },
     Fairy: {
         Normal: 1,
@@ -450,6 +486,28 @@ var TYPE_CHART_XY = $.extend(true, {}, TYPE_CHART_GSC, {
         Dragon: 2,
         Dark: 2,
         Steel: 0.5,
-        Fairy: 1
-    }
+        Fairy: 1,
+        Test: 1
+    },
+      Test: {
+        Normal: 1,
+        Grass: 1,
+        Fire: 1,
+        Water: 1,
+        Electric: 1,
+        Ice: 1,
+        Flying: 1,
+        Bug: 1,
+        Poison: 1,
+        Ground: 1,
+        Rock: 1,
+        Fighting: 1,
+        Psychic: 1,
+        Ghost: 1,
+        Dragon: 1,
+        Dark: 1,
+        Steel: 1,
+        Fairy: 1,
+        Test: 1
+    } 
 });
